@@ -3,46 +3,95 @@
   margin: 0;
   box-sizing: border-box;
 }
+/***** FONT-FACES *****/
+@font-face {
+  font-family: 'NexaBold';
+  src: url('../font/NexaBold.woff') format('woff'),
+    url('../font/NexaBold.woff2') format('woff2');
+  font-weight: normal;
+}
+/***** Variables CSS *****/
+:root {
+  --white: #ffffff;
+  --black: #000000;
+
+  --primary: #0f059a;
+  --secondary: #191964;
+  --neon: #02fccf;
+}
+
+/***** Version PC *****/
+html {
+  font-family: ;
+  font-size: 1rem;
+}
+body {
+  line-height: 1.3;
+}
+/* NavBar */
+.navigation {
+  background: red;
+}
+.nav-container {
+}
+.theLogo {
+  width: 271px;
+  margin: 46px 0 34px 164px;
+}
+
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 150px;
+  top: 20px;
+}
+nav ul li {
+  float: left;
+  position: relative;
+}
+nav ul li a {
+  font-family: 'NexaBold';
+  font-size: 21px;
+  display: block;
+  padding: 0 60px;
+  line-height: 100px;
+  background: var(--primary);
+  color: var(--white);
+  text-decoration: none;
+}
 
 /******* MEDIA QUERIES ******/
 @media screen and (max-width: 375px) {
+  /******** BANNER BOTTOM ********/
 
-
-
-
-
-
-
-/******** BANNER BOTTOM ********/
-
-.banner-bottom{
+  .banner-bottom {
     display: flex;
     position: absolute;
     bottom: 0;
     left: 0;
-    background: #0F059A;
+    background: var(--primary);
     width: 100%;
     height: 59px;
-}
-.logo-banner{
+  }
+  .logo-banner {
     width: 91px;
-}
+  }
 
-
-
-
-
-/********   FOOTER    **********/
-.container-social{
+  /********   FOOTER    **********/
+  .container-social {
     position: absolute;
     display: flex;
     flex-direction: column;
     right: 25px;
     bottom: 45px;
-}
-.icone-reseau{
+  }
+  .icone-reseau {
     margin: 15px;
-    color: green; /************ faudra la changer */
-}
-
+    color: var(--primary); /************ faudra la changer */
+  }
 }
