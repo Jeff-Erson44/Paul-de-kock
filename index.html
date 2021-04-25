@@ -11,7 +11,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!-- Authenticité de la page -->
-    <link rel="canonical" href="https://Paul-de-k ock.fr" />
+    <link rel="canonical" href="https://Paul-de-kock.fr" />
     <!-- RESET CSS -->
     <link rel="stylesheet" href="../Paul-de-kock/asset/css/reset.css">
     <!-- CSS -->
@@ -24,11 +24,26 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="https://Paul-de-k ock.fr" title="logo Paul de Kock">
-                <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340.92 60.02"><defs><style>.cls-1{font-size:54.07px;fill:#2a327c;font-family:BrushScriptStd, Brush Script Std;}</style></defs><text class="cls-1" transform="translate(0 44.88)"><tspan xml:space="preserve">Paul de  Kock </tspan></text></svg>
-            </a>
-        </nav>
+        <section class="navigation">
+            <div class="nav-container">
+                <div class="brand">
+                    <a href="index.html" title="logo Paul de Kock">
+                        <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340.92 60.02"><defs><style>.cls-1{font-size:54.07px;fill:#fff;font-family:BrushScriptStd, Brush Script Std;}</style></defs><text class="cls-1" transform="translate(0 44.88)"><tspan xml:space="preserve">Paul de  Kock </tspan></text></svg>
+                    </a>
+                </div>
+                <nav>
+                <div class="nav-mobile">
+                    <a id="nav-toggle" href="#!"><span></span></a>
+                </div>
+                <ul class="nav-list">
+                    <!-- Ne pas enlever le #! car ça permet d'exécuter aucune action au click -->
+                    <li><a href="#about" title="à propos de nous">Qui sommes-nous ?</a></li>
+                    <li><a href="#prestations" title="Nos prestations">Nos prestations</a></li>
+                    <li><a href="#contact" title="contact">Contact</a></li>
+                </ul>
+                </nav>
+            </div>
+        </section>
     </header>
  
 </body>
