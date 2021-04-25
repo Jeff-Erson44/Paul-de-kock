@@ -6,4 +6,26 @@
 
 /******* MEDIA QUERIES ******/
 @media screen and (max-width: 375px) {
+
+
+
+
+
+
+
+
+
+/********   FOOTER    **********/
+.container-social{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 25px;
+    bottom: 45px;
+}
+.icone-reseau{
+    margin: 15px;
+    color: green; /************ faudra la changer */
+}
+
 }
