@@ -7,7 +7,7 @@
 @font-face {
   font-family: 'NexaBold';
   src: url('../font/NexaBold.woff') format('woff'),
-    url('../font/NexaBold.woff2') format('woff2');
+       url('../font/NexaBold.woff2') format('woff2');
   font-weight: normal;
 }
 /***** Variables CSS *****/
