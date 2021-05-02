@@ -22,7 +22,7 @@
 
 /***** Version PC *****/
 html {
-  font-family: ;
+  font-family: 'NexaBold', sans-serif ;
   font-size: 1rem;
 }
 body {
@@ -30,7 +30,7 @@ body {
 }
 /* NavBar */
 .navigation {
-  background: red;
+  background: rgba(255, 255, 255, 0);
 }
 .nav-container {
 }
@@ -60,9 +60,71 @@ nav ul li a {
   display: block;
   padding: 0 60px;
   line-height: 100px;
-  background: var(--primary);
-  color: var(--white);
+  background: #ffffff00;
+  color: var(--black);
   text-decoration: none;
+}
+
+
+
+/*********  ACCUEIL    ***********/
+.bloc-bleu{
+  width: 32%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: var(--primary);
+}
+
+.banniere{
+  margin: auto;
+  margin-left: 26%;
+  width: 58%;
+}
+.containeur-accueil{
+  background: red;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+width: 962px;
+height: 241px;
+left: 115px;
+top: 447px;
+
+}
+
+.containeur-accueil h2{
+  color: var(--white);
+  font-family: sans-serif;
+}
+.containeur-accueil h1{
+  color: var(--white);
+  font-family:'NexaBold';
+  font-size: 42px;
+  line-height: 42px;
+  text-transform: uppercase; 
+}
+
+
+
+
+
+
+
+
+.fa-chevron-left, .fa-chevron-right{
+  position: absolute;
+  bottom: 35px;
+  right: 30px;
+  color: var(--neon);
+  font-size: 24px;
+}
+.fa-chevron-left{
+  right: 80px;
 }
 
 /******* MEDIA QUERIES ******/
