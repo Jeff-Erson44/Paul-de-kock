@@ -133,7 +133,7 @@ ul{
   content: '';
   width: 20%;
   height: 3px;
-  bottom: 115px;
+  bottom: 55%;
   background-color: var(--neon);
 }
 
