@@ -7,7 +7,7 @@
 @font-face {
   font-family: 'NexaBold';
   src: url('../font/NexaBold.woff') format('woff'),
-       url('../font/NexaBold.woff2') format('woff2');
+    url('../font/NexaBold.woff2') format('woff2');
   font-weight: normal;
 }
 /***** Variables CSS *****/
@@ -22,76 +22,99 @@
 
 /***** Version PC *****/
 html {
-  font-family: 'NexaBold', sans-serif ;
+  font-family: 'NexaBold', sans-serif;
   font-size: 1rem;
 }
 body {
   line-height: 1.3;
 }
 
-
-/*********  NAV  ***********/
-/* NavBar 
-.navigation {
-  background: rgba(255, 255, 255, 0);
+header {
+  background-size: cover;
 }
-.nav-container {
-}
-.theLogo {
-  width: 271px;
-  margin: 46px 0 34px 164px;
+.monLogo {
+  height: 40px;
+  width: 40px;
+  margin-top: 10%;
+  margin-left: -50%;
 }
 
 nav {
-  float: right;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  right: 150px;
-  top: 20px;
-}
-nav ul li {
-  float: left;
-  position: relative;
-}
-nav ul li a {
-  font-family: 'NexaBold';
-  font-size: 21px;
-  display: block;
-  padding: 0 60px;
-  line-height: 100px;
-  background: #ffffff00;
-  color: var(--black);
-  text-decoration: none;
-}*/
-
-nav {
-  background: red;
-  height: 10vh;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
+  height: 8vh;
+  background-color: black;
+  z-index: 1;
+  width: 100%;
+  position: fixed;
 }
 
-ul{
+.nav-links {
   display: flex;
-  margin-right: 10% ;
- 
-}
-li{
-   margin: 0 80px;
+  justify-content: space-around;
+  width: 40%;
+  font-family: 'gotham-book';
 }
 
+.nav-links li {
+  list-style: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
 
+.nav-links a:hover {
+  color: rgb(184, 184, 184);
+}
 
+.burger {
+  display: none;
+  cursor: pointer;
+}
 
+.burger div {
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  margin: 8px;
+  transition: all 0.3s ease;
+}
 
+@keyframes navLinksFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.fab {
+  color: white;
+  font-size: 20px;
+}
 
 /*********  ACCUEIL    ***********/
-.bloc-bleu{
+.bloc-bleu {
   width: 32%;
   height: 100vh;
   position: absolute;
@@ -107,39 +130,39 @@ li{
   padding: 20px 5px;
 }
 
-.banniere{
+.banniere {
   margin-left: 26%;
   width: 58%;
   margin: auto;
 }
-.containeur-accueil{
+.containeur-accueil {
   background: rgba(255, 0, 0, 0.336);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 15px ;
+  padding: 15px;
   position: absolute;
   width: 65%;
   height: 33%;
-  top:calc( 55% - 17.5%);
+  top: calc(55% - 17.5%);
   left: 5%;
 }
 
-.containeur-accueil h2{
+.containeur-accueil h2 {
   color: var(--white);
   font-family: sans-serif;
   margin-bottom: 40px;
 }
-.containeur-accueil h1{
+.containeur-accueil h1 {
   color: var(--white);
-  font-family:'NexaBold';
+  font-family: 'NexaBold';
   font-size: 42px;
   line-height: 42px;
   text-transform: uppercase;
   margin-bottom: 80px;
 }
 
-.containeur-accueil h1::before{
+.containeur-accueil h1::before {
   position: absolute;
   content: '';
   width: 20%;
@@ -148,18 +171,18 @@ li{
   background-color: var(--neon);
 }
 
-
-.fa-chevron-left, .fa-chevron-right{
+.fa-chevron-left,
+.fa-chevron-right {
   position: absolute;
   bottom: 35px;
   right: 30px;
   color: var(--neon);
   font-size: 24px;
 }
-.fa-chevron-left{
+.fa-chevron-left {
   right: 80px;
 }
-button{
+button {
   padding: 20px 50px;
   background: var(--white);
   border-radius: 100px;
