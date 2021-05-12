@@ -101,9 +101,14 @@ nav ul li a {
 }
 
 .banniere {
+  width: 60%;
   position: absolute;
   right: 13%;
 }
+.banniere2 {
+  display: none;
+}
+
 .containeur-accueil{
   background: rgba(255, 0, 0, 0.336);
   display: flex;
@@ -168,7 +173,6 @@ button{
   }
 
   /******** BANNER BOTTOM ********/
-
   .banner-bottom {
     display: flex;
     position: absolute;
@@ -182,6 +186,16 @@ button{
     width: 91px;
   }
 
+  .bloc-bleu {
+    width: 60%;
+  }
+
+  .banniere {
+    display: none;
+  }
+  .banniere2 {
+    display: block;
+  }
   /********   FOOTER    **********/
   .container-social {
     position: absolute;
