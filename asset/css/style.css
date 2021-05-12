@@ -72,9 +72,6 @@ nav {
   margin-right: 10% ;
  
 }
-nav ul li{
-   margin: 0 80px;
-}
 
 nav ul li a {
   font-family: 'NexaBold';
@@ -103,10 +100,9 @@ nav ul li a {
   padding: 30px 5px;
 }
 
-.banniere{
-  margin-left: 26%;
-  width: 58%;
-  margin: auto;
+.banniere {
+  position: absolute;
+  right: 13%;
 }
 .containeur-accueil{
   background: rgba(255, 0, 0, 0.336);
@@ -144,7 +140,6 @@ nav ul li a {
   background-color: var(--neon);
 }
 
-
 .fa-chevron-left, .fa-chevron-right{
   position: absolute;
   bottom: 35px;
@@ -163,8 +158,15 @@ button{
   color: var(--primary);
 }
 
+
+
 /******* MEDIA QUERIES ******/
 @media screen and (max-width: 375px) {
+
+  .bloc-bleu{
+    width: 60%;
+  }
+
   /******** BANNER BOTTOM ********/
 
   .banner-bottom {
