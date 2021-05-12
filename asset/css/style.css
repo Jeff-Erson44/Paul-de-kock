@@ -7,7 +7,7 @@
 @font-face {
   font-family: 'NexaBold';
   src: url('../font/NexaBold.woff') format('woff'),
-       url('../font/NexaBold.woff2') format('woff2');
+    url('../font/NexaBold.woff2') format('woff2');
   font-weight: normal;
 }
 /***** Variables CSS *****/
@@ -22,13 +22,12 @@
 
 /***** Version PC *****/
 html {
-  font-family: 'NexaBold', sans-serif ;
+  font-family: 'NexaBold', sans-serif;
   font-size: 1rem;
 }
 body {
   line-height: 1.3;
 }
-
 
 /*********  NAV  ***********/
 /* NavBar 
@@ -58,7 +57,6 @@ nav ul li {
   position: relative;
 }*/
 
-
 nav {
   background: rgba(255, 0, 0, 0);
   height: 10vh;
@@ -67,13 +65,12 @@ nav {
   align-items: center;
 }
 
- nav ul{
+nav ul {
   display: flex;
-  margin-right: 10% ;
- 
+  margin-right: 10%;
 }
-nav ul li{
-   margin: 0 80px;
+nav ul li {
+  margin: 0 80px;
 }
 
 nav ul li a {
@@ -87,7 +84,7 @@ nav ul li a {
   text-decoration: none;
 }
 /*********  ACCUEIL    ***********/
-.bloc-bleu{
+.bloc-bleu {
   width: 32%;
   height: 100vh;
   position: absolute;
@@ -103,39 +100,43 @@ nav ul li a {
   padding: 30px 5px;
 }
 
-.banniere{
+.banniere {
   margin-left: 26%;
   width: 58%;
   margin: auto;
 }
-.containeur-accueil{
+.banniere2 {
+  display: none;
+}
+
+.containeur-accueil {
   background: rgba(255, 0, 0, 0.336);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 15px ;
+  padding: 15px;
   position: absolute;
   width: 65%;
   height: 33%;
-  top:calc( 55% - 17.5%);
+  top: calc(55% - 17.5%);
   left: 5%;
 }
 
-.containeur-accueil h2{
+.containeur-accueil h2 {
   color: var(--white);
   font-family: sans-serif;
   margin-bottom: 40px;
 }
-.containeur-accueil h1{
+.containeur-accueil h1 {
   color: var(--white);
-  font-family:'NexaBold';
+  font-family: 'NexaBold';
   font-size: 42px;
   line-height: 42px;
   text-transform: uppercase;
   margin-bottom: 80px;
 }
 
-.containeur-accueil h1::before{
+.containeur-accueil h1::before {
   position: absolute;
   content: '';
   width: 20%;
@@ -144,18 +145,18 @@ nav ul li a {
   background-color: var(--neon);
 }
 
-
-.fa-chevron-left, .fa-chevron-right{
+.fa-chevron-left,
+.fa-chevron-right {
   position: absolute;
   bottom: 35px;
   right: 30px;
   color: var(--neon);
   font-size: 24px;
 }
-.fa-chevron-left{
+.fa-chevron-left {
   right: 80px;
 }
-button{
+button {
   padding: 20px 50px;
   background: var(--white);
   border-radius: 100px;
@@ -178,6 +179,17 @@ button{
   }
   .logo-banner {
     width: 91px;
+  }
+
+  .bloc-bleu {
+    width: 60%;
+  }
+
+  .banniere {
+    display: none;
+  }
+  .banniere2 {
+    display: block;
   }
 
   /********   FOOTER    **********/
