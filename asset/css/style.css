@@ -70,7 +70,7 @@ nav ul li a {
 
 nav {
   background: red;
-  height: 12vh;
+  height: 10vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -78,7 +78,18 @@ nav {
 
 ul{
   display: flex;
+  margin-right: 10% ;
+ 
 }
+li{
+   margin: 0 80px;
+}
+
+
+
+
+
+
 /*********  ACCUEIL    ***********/
 .bloc-bleu{
   width: 32%;
