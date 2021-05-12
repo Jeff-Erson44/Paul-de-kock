@@ -56,7 +56,26 @@ nav ul {
 nav ul li {
   float: left;
   position: relative;
+}*/
+
+
+nav {
+  background: rgba(255, 0, 0, 0);
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
+
+ nav ul{
+  display: flex;
+  margin-right: 10% ;
+ 
+}
+nav ul li{
+   margin: 0 80px;
+}
+
 nav ul li a {
   font-family: 'NexaBold';
   font-size: 21px;
@@ -66,30 +85,7 @@ nav ul li a {
   background: #ffffff00;
   color: var(--black);
   text-decoration: none;
-}*/
-
-nav {
-  background: red;
-  height: 10vh;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
-
-ul{
-  display: flex;
-  margin-right: 10% ;
- 
-}
-li{
-   margin: 0 80px;
-}
-
-
-
-
-
-
 /*********  ACCUEIL    ***********/
 .bloc-bleu{
   width: 32%;
@@ -101,10 +97,10 @@ li{
   z-index: -8;
 }
 .logo {
-  width: 65%;
+  width: 40%;
   display: flex;
   margin: auto;
-  padding: 20px 5px;
+  padding: 30px 5px;
 }
 
 .banniere{
