@@ -163,6 +163,9 @@ button {
   color: var(--primary);
 }
 
+.diapo{
+  margin-bottom: 150px;
+}
 
 /******** QUI SOMMES NOUS ********/
 
