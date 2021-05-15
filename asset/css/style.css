@@ -83,13 +83,11 @@ nav ul li a {
 }
 /*********  ACCUEIL    ***********/
 .bloc-bleu {
-  width: 32%;
-  height: 100vh;
   position: absolute;
   top: 0;
-  left: 0;
+  width: 32%;
+  height: 100vh;
   background: var(--primary);
-  z-index: -8;
 }
 .logo {
   width: 40%;
@@ -99,9 +97,11 @@ nav ul li a {
 }
 
 .banniere {
+  position: relative;
   width: 60%;
-  position: absolute;
-  right: 13%;
+  margin-top: 3%;
+  z-index: 1;
+  margin-left: 26%;
 }
 .banniere2 {
   display: none;
@@ -118,6 +118,7 @@ nav ul li a {
   height: 33%;
   top: calc(55% - 17.5%);
   left: 5%;
+  z-index: 2;
 }
 
 .containeur-accueil h2 {
@@ -139,7 +140,7 @@ nav ul li a {
   content: '';
   width: 20%;
   height: 3px;
-  bottom: 55%;
+  bottom: 110px;
   background-color: var(--neon);
 }
 
@@ -165,6 +166,10 @@ button {
 
 /******** QUI SOMMES NOUS ********/
 
+.quisommesnous{
+  background:red;
+  height: 200px;
+}
 
 /******* MEDIA QUERIES ******/
 
