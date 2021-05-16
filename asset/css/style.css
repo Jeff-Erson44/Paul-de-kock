@@ -40,7 +40,6 @@ body {
 }
 
 .title {
-  position: relative;
   margin: 5% 10%;
   font-size: 3.5rem;
 }
@@ -96,14 +95,15 @@ nav ul li a {
   color: var(--black);
   text-decoration: none;
 }
-/*********  ACCUEIL    ***********/
-.bloc-bleu {
+header::before{
+  content: "";
   position: absolute;
-  top: 0;
+  background: var(--primary);
   width: 32%;
   height: 100vh;
-  background: var(--primary);
+  z-index: -2;
 }
+/*********  ACCUEIL    ***********/
 .logo {
   width: 40%;
   display: flex;
@@ -112,7 +112,6 @@ nav ul li a {
 }
 
 .banniere {
-  position: relative;
   width: 60%;
   margin-top: 3%;
   z-index: 1;
@@ -128,9 +127,9 @@ nav ul li a {
   flex-direction: column;
   align-items: flex-start;
   padding: 15px;
-  position: absolute;
   width: 65%;
   height: 33%;
+  position: absolute;
   top: calc(55% - 17.5%);
   left: 5%;
   z-index: 2;
@@ -169,10 +168,6 @@ nav ul li a {
 }
 .fa-chevron-left {
   right: 80px;
-}
-
-.diapo {
-  margin-bottom: 150px;
 }
 
 /******** BOUTONS ********/
@@ -305,7 +300,6 @@ i.fas.fa-star {
   flex-direction: row;
   margin: auto;
   width: 80%;
-  position: absolute;
   top: 50%;
   left: 0;
   right: 0;
@@ -335,6 +329,7 @@ i.fas.fa-star {
   font-size: 2.25rem;
   margin-bottom: 2rem;
 }
+
 
 /****************************/
 /****************************/
