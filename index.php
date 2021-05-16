@@ -1,4 +1,10 @@
 <?php
+
+date_default_timezone_set('Europe/Paris');
+
+session_start();
+
+
 function flash_in($type, $message)
 {
 
@@ -39,12 +45,7 @@ if (!empty($_POST)) {
         $errors++;
     }
 
-    if (empty($_POST['prenom'])) {
-        flash_in('error', 'Merci de renseigner votre prénom');
-        $errors++;
-    }
-
-    if (empty($_POST['email'])) {
+    if (!empty($_POST['email'])) {
         if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
             flash_in('error', 'Merci de renseigner une adresse email valide');
             $errors++;
@@ -64,9 +65,9 @@ if (!empty($_POST)) {
         $headers[] = "Content-Type: text/html; charset=UTF-8";
         $headers[] = 'From: '. $_POST['prenom'] .' '. $_POST['nom'] . '<' . $_POST['email'] . '>';
 
-        $mail = 'contact@lescompagnonsducompost.fr';
-        $sujet = '[' .$_POST['prenom']. ' ' .$_POST['nom']. ']' . ' ' .$_POST['demande'];
-        $message ='<p>Type de demande : ' .$_POST['situation'].'</p>'.'<p>De '.$_POST['civilite'].' '.$_POST['nom'].' '.$_POST['prenom'].'<p>Numéro de téléphone : '.$_POST['phone'] . '</p>'.'<hr>'.'<p>Message : '.$_POST['message'] .'</p>'.'<br>';
+        $mail = 'elisab.ngo@gmail.com';
+        $sujet = '[' .$_POST['prenom']. ' ' .$_POST['nom']. ']';
+        $message ='<p>De '.$_POST['nom'].' '.$_POST['prenom'].'<p>'.'</p>'.'<hr>'.'<p>Message : '.$_POST['message'] .'</p>'.'<br>';
         // str_replace(ce que je veux remplacer, par quoi, dans quelle chaine)
     
         mail($mail, $sujet, $message, implode(PHP_EOL, $headers) );
@@ -117,9 +118,9 @@ if (!empty($_POST)) {
     <header>
         <nav class="menu_desktop">
             <ul>
-                <li><a href="#">Qui sommes-nous</a></li>
-                <li><a href="#">Nos prestations</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#quisommesnous">Qui sommes-nous</a></li>
+                <li><a href="#prestations">Nos prestations</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 
@@ -257,10 +258,27 @@ if (!empty($_POST)) {
 
 
         <!-- CONTACT -->
-
+        <?php echo flash_out() ?>
         <section id="contact">
-        </section>
+            <form method="POST">
+                <div>
+                    <input type="text" class="input-contact" id="prenom" name="prenom" placeholder="Prénom">
+                </div>
+                <div>
+                    <input type="text" class="input-contact" id="nom" name="nom" placeholder="Nom"> 
+                </div>
+                <div>
+                    <label for="message"></label>
+                    <textarea name="message" id="message" cols="30" rows="10" class="input-contact" placeholder="message"></textarea>
+                </div>
+                </div>
+                <div>
+                    <input type="email" class="input-contact" id="email" name="email" placeholder="Adresse email">
+                </div>
 
+                <button type="submit" class="btnContact">Envoyer</button>
+            </form>
+        </section>
         <!-- CONTACT FIN -->
 
     </main>
