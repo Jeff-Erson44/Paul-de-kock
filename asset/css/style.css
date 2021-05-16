@@ -103,17 +103,16 @@ header::before{
   height: 100vh;
   z-index: -2;
 }
-/*********  ACCUEIL    ***********/
-.logo {
-  width: 40%;
-  display: flex;
-  margin: auto;
-  padding: 30px 5px;
-}
 
+/*********  ACCUEIL    ***********/
+
+.logo {
+  width: 18%;
+  margin-left: 7%;
+  margin-top: -2%;
+}
 .banniere {
   width: 60%;
-  margin-top: 3%;
   z-index: 1;
   margin-left: 26%;
 }
