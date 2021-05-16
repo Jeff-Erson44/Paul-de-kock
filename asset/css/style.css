@@ -251,18 +251,26 @@ button {
 .ul-bandeau {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding: 9rem 0;
-}
-.li-bandeau {
-  margin-right: 10rem;
+  padding: 9rem 15rem;
+  width: 100%;
+  justify-content: space-around;
 }
 .li-bandeau p {
   color: var(--white);
 }
+li.li-bandeau {
+  text-align: center;
+}
 i {
   color: var(--white);
   font-size: 3rem;
+}
+i.fas.fa-star {
+  margin-bottom: 30px;
+  margin-top: -20px;
+}
+.numbers {
+  margin-bottom: 15px;
 }
 
 /******** NOS PRESTATIONS *********/
