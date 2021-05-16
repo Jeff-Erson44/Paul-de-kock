@@ -335,26 +335,6 @@ i.fas.fa-star {
   font-size: 2.25rem;
   margin-bottom: 2rem;
 }
-/*
-.container-presta {
-  position: absolute;
-  top: 50%;
-  left: 13%;
-  display: flex;
-  flex-wrap: wrap;
-  width: 73.5%;
-  background-color: red;
-}
-.container-presta article {
-  width: 50%;
-  padding: 60px;
-  min-height: 35vh;  35% de ma fenêtre 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;  pour mettre la ligne au début et mettre un padding pour l'agrandir légèrement ET existe que si y a un display flex 
-  position: relative;
-} */
 
 /****************************/
 /****************************/
