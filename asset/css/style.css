@@ -107,14 +107,15 @@ header::before{
 /*********  ACCUEIL    ***********/
 
 .logo {
-  width: 18%;
+  width: 17%;
   margin-left: 7%;
-  margin-top: -2%;
+  margin-top: -4%;
 }
 .banniere {
   width: 60%;
   z-index: 1;
   margin-left: 26%;
+  margin-top: 4%;
 }
 .banniere2 {
   display: none;
