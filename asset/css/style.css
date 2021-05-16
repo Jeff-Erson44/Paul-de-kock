@@ -39,6 +39,12 @@ body {
   font-family: 'Gilroy-light';
 }
 
+.title {
+  position: relative;
+  margin: 5% 10%;
+  font-size: 3.5rem;
+}
+
 /*********  NAV  ***********/
 /* NavBar 
 .navigation {
@@ -189,13 +195,8 @@ button {
   cursor: pointer;
 }
 /******** QUI SOMMES NOUS ********/
-.quisommesnous {
+#quisommesnous {
   background: none;
-}
-.title-about {
-  position: relative;
-  margin: 5% 10%;
-  font-size: 3.5rem;
 }
 .title-about::before {
   position: absolute;
@@ -239,6 +240,73 @@ button {
   border: 4px solid var(--primary);
   z-index: -1;
 }
+
+/******** BANDEAU COMPTEURS ********/
+.bandeau {
+  background: var(--primary);
+  height: 21.4rem;
+  width: 100%;
+  margin-top: 8rem;
+}
+.ul-bandeau {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 9rem 0;
+}
+.li-bandeau {
+  margin-right: 10rem;
+}
+.li-bandeau p {
+  color: var(--white);
+}
+i {
+  color: var(--white);
+  font-size: 3rem;
+}
+
+/******** NOS PRESTATIONS *********/
+#prestations {
+  position: relative;
+}
+.image-presta {
+  position: relative;
+}
+.title-presta {
+  position: absolute;
+  color: var(--white);
+  left: 0;
+  top: 0;
+}
+.title-presta::before {
+  position: absolute;
+  content: '';
+  width: 20%;
+  height: 3px;
+  bottom: 0;
+  right: 0;
+  background-color: var(--neon);
+}
+.container-presta {
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 73.5%;
+  background-color: red;
+}
+.container-presta article {
+  width: 50%;
+  padding: 60px;
+  min-height: 35vh; /* 35% de ma fenêtre */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* pour mettre la ligne au début et mettre un padding pour l'agrandir légèrement ET existe que si y a un display flex */
+  position: relative;
+}
+
 /****************************/
 /****************************/
 /******* MEDIA QUERIES ******/
