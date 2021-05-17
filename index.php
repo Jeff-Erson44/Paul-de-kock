@@ -241,16 +241,19 @@ if (!empty($_POST)) {
             <h2 class="title">Nos Partenaires</h2>
             <div class="container-partenaires">
                 <figure>
-                    <img class="logo_partenaires" src="asset/img/Renault.jpg">
+                    <img class="logo_partenaires" src="asset/img/Renault.png">
                 </figure>
                 <figure>
-                    <img class="logo_partenaires" src="asset/img/Renault.jpg">
+                    <img class="logo_partenaires" src="asset/img/bmw.png">
                 </figure>
                 <figure>
-                    <img class="logo_partenaires" src="asset/img/Renault.jpg">
+                    <img class="logo_partenaires" src="asset/img/citroen.png">
                 </figure>
                 <figure>
-                    <img class="logo_partenaires" src="asset/img/Renault.jpg">
+                    <img class="logo_partenaires" src="asset/img/peugeot.png">
+                </figure>
+                <figure>
+                    <img class="logo_partenaires" src="asset/img/reservoir_auto.png">
                 </figure>
             </div>
         </section>
