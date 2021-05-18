@@ -263,24 +263,33 @@ if (!empty($_POST)) {
         <!-- CONTACT -->
         <?php echo flash_out() ?>
         <section id="contact">
-            <form method="POST">
-                <div>
-                    <input type="text" class="input-contact" id="prenom" name="prenom" placeholder="Prénom">
-                </div>
-                <div>
-                    <input type="text" class="input-contact" id="nom" name="nom" placeholder="Nom"> 
-                </div>
-                <div>
-                    <label for="message"></label>
-                    <textarea name="message" id="message" cols="30" rows="10" class="input-contact" placeholder="message"></textarea>
-                </div>
-                </div>
-                <div>
-                    <input type="email" class="input-contact" id="email" name="email" placeholder="Adresse email">
-                </div>
+            <div class="container-contact">
+                <div class="infos">
 
-                <button type="submit" class="btnContact">Envoyer</button>
-            </form>
+                </div>
+                <div class="formulaire">
+                    <form method="POST">
+                        <h2 class="title title-contact">Contact</h2>
+
+                        <div class="nomPrenom">
+                            <input type="text" class="input-contact" id="nom" name="nom" placeholder="Nom"> 
+                            <input type="text" class="input-contact" id="prenom" name="prenom" placeholder="Prénom">
+                        </div>
+
+                        <div>
+                            <input type="email" class="input-contact" id="email" name="email" placeholder="Adresse email">
+                        </div>
+
+                        <div>
+                            <label for="message"></label>
+                            <textarea name="message" id="message" class="input-contact" placeholder="message"></textarea>
+                        </div>
+
+                        <small>(1500 caractères max.)</small>
+
+                        <button type="submit" class="primary">Envoyer</button>
+                    </form>
+                </div>
         </section>
         <!-- CONTACT FIN -->
 
