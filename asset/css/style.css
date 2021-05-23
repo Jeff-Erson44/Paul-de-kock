@@ -400,6 +400,24 @@ textarea {
   border: none;
   border-bottom: 2px solid var(--primary);
 }
+textarea#message {
+  min-height: 50px;
+  max-height: 170px;
+}
+
+
+
+
+/****************************/
+          /*MAP*/
+/****************************/
+
+iframe.map {
+  width: 100%;
+}
+
+
+
 
 /****************************/
 /****************************/

@@ -111,10 +111,12 @@ if (!empty($_POST)) {
     <!-- POLICE -->
     <link rel="stylesheet" href="https://use.typekit.net/jow5iyc.css%22%3E">
     <!-- FAVICON optimisé pour tout les devices-->
-   
+
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+    
 
 </head>
-<body>
+<body onload="initialize()">
     <header>
         <nav class="menu_desktop">
             <ul>
@@ -292,6 +294,7 @@ if (!empty($_POST)) {
                 </div>
         </section>
         <!-- CONTACT FIN -->
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d911.935278466349!2d2.43750753932732!3d48.89093039597097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d2204689069%3A0x2963fbf5fe8a5c41!2sRue%20Paul%20de%20Kock%2C%2093230%20Romainville!5e0!3m2!1sfr!2sfr!4v1621809612544!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
     </main>
 <!-------------->
@@ -302,8 +305,10 @@ if (!empty($_POST)) {
 <!------------>
 <!-- FOOTER -->
 <!------------>
-
+    
     <footer>
+
+
         <!--
         <div class="container-social"> on le met en flex column et  c carré 
             <i class="icone-reseau fab fa-facebook-f"></i>
@@ -317,8 +322,9 @@ if (!empty($_POST)) {
 <!---------------->
  
 </body>
+<script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script><script> window.start.init({Palette:"palette6",Mode:"floating right",Theme:"classic",Message:"Paul de Kock utilise des cookies, en poursuivant votre navigation, vous acceptez leur utilisations.",ButtonText:"Accepter",LinkText:"Voir plus",Time:"10",})</script>
 
-<!-- Balise Pop-Up COOKIES
-<script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script><script> window.start.init({Palette:"palette6",Mode:"floating right",Theme:"classic",Message:"Paul de Kock utilise des cookies, en poursuivant votre navigation, vous acceptez leur utilisations.",ButtonText:"Accepter",LinkText:"Voir plus",Time:"10",})</script>-->
+<script src="asset/js/script.js"></script>
+
 
 </html>
