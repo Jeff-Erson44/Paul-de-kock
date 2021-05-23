@@ -108,6 +108,8 @@ if (!empty($_POST)) {
     <link rel="stylesheet" href="asset/css/style.css">
     <!-- LOCOMOTIVE SCROLL -->
     <link rel="stylesheet" href="../Paul-de-kock/asset/css/locomotive-scroll.css">
+    <!-- LIGHTBOX CDN -->
+    <link rel="stylesheet" href="asset/css/lightbox.min.css">
     <!-- POLICE -->
     <link rel="stylesheet" href="https://use.typekit.net/jow5iyc.css%22%3E">
     <!-- FAVICON optimisé pour tout les devices-->
@@ -214,7 +216,7 @@ if (!empty($_POST)) {
             <div class="container-presta">
                 <!--.box-presta*3>img+article-->
                 <div class="box-presta">
-                    <img src="asset/img/presta1.jpg" alt="prestation">
+                    <img src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="prestation">
                     <article class="article-presta">
                         <h4>Paul de Kock</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus dolor ea nulla? Dolor officia natus nostrum, ab voluptatum odit itaque maxime, veritatis similique animi voluptates perferendis nobis labore modi sapiente.</p>
@@ -225,10 +227,10 @@ if (!empty($_POST)) {
                         <h4>Paul de Kock</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus dolor ea nulla? Dolor officia natus nostrum, ab voluptatum odit itaque maxime, veritatis similique animi voluptates perferendis nobis labore modi sapiente.</p>
                     </article>
-                    <img class="image-presta" src="asset/img/presta2.jpg" alt="prestation">
+                    <img class="image-presta" src="asset/img/presta2.jpg" data-lightbox="mygallery" alt="prestation">
                 </div>
                 <div class="box-presta">
-                    <img class="image-presta" src="asset/img/presta3.jpg" alt="prestation">
+                    <img class="image-presta" src="asset/img/presta3.jpg" data-lightbox="mygallery" alt="prestation">
                     <article class="article-presta">
                         <h4>Paul de Kock</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus dolor ea nulla? Dolor officia natus nostrum, ab voluptatum odit itaque maxime, veritatis similique animi voluptates perferendis nobis labore modi sapiente.</p>
@@ -240,22 +242,22 @@ if (!empty($_POST)) {
 
         <!-- NOS PARTENAIRES -->
         <section>
-            <h2 class="title">Nos Partenaires</h2>
+            <h2 class="title">Nos partenaires</h2>
             <div class="container-partenaires">
                 <figure>
-                    <img class="logo_partenaires" src="asset/img/Renault.png">
+                    <img class="logo_partenaires" src="asset/img/logo_renault.png">
                 </figure>
                 <figure>
-                    <img class="logo_partenaires" src="asset/img/bmw.png">
+                    <img class="logo_partenaires" src="asset/img/logo_bmw.png">
                 </figure>
                 <figure>
-                    <img class="logo_partenaires" src="asset/img/citroen.png">
+                    <img class="logo_partenaires" src="asset/img/logo_citroen.png">
                 </figure>
                 <figure>
-                    <img class="logo_partenaires" src="asset/img/peugeot.png">
+                    <img class="logo_partenaires" src="asset/img/logo_peugeot.png">
                 </figure>
                 <figure>
-                    <img class="logo_partenaires" src="asset/img/reservoir_auto.png">
+                    <img class="logo_partenaires" src="asset/img/logo_reservoir_auto.png">
                 </figure>
             </div>
         </section>
@@ -321,6 +323,8 @@ if (!empty($_POST)) {
 <!-- FOOTER FIN -->
 <!---------------->
  
+ <!-- LIGHTBOX SCRIPT -->
+ <script src="asset/js/lightbox-plus-jquery.min.js" charset="utf-8"></script>
 </body>
 <script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script><script> window.start.init({Palette:"palette6",Mode:"floating right",Theme:"classic",Message:"Paul de Kock utilise des cookies, en poursuivant votre navigation, vous acceptez leur utilisations.",ButtonText:"Accepter",LinkText:"Voir plus",Time:"10",})</script>
 

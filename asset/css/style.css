@@ -309,6 +309,14 @@ i.fas.fa-star {
   flex-direction: row;
   justify-content: center;
 }
+.box-presta img {
+  transition: 1s;
+  padding: 15px;
+  width: 420px;
+}
+.box-presta img:hover {
+  transform: scale(1.2);
+}
 .article-presta {
   width: 46%;
   padding: 3.75rem;
@@ -329,8 +337,12 @@ i.fas.fa-star {
 
 /******** NOS PARTENAIRES *********/
 .logo_partenaires {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  filter: grayscale(100%);
+}
+.logo_partenaires:hover {
+  transition: 1s;
+  filter: grayscale(0);
 }
 .container-partenaires {
   display: flex;
