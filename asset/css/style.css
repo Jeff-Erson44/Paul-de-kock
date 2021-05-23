@@ -426,6 +426,7 @@ textarea#message {
 
 iframe.map {
   width: 100%;
+  margin-top: -10px;
 }
 
 
