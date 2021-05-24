@@ -95,7 +95,7 @@ if (!empty($_POST)) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"  content="Paul de Kock, Remorquage automobile. Intervention en urgence ou sur RDV, Paris et Ile-de-France. Remorquage tout type de véhicules, en sous-sol, brûlée, accidenté. Dépanneur professionnel, services efficace et rapide.">
     <meta name="robots" content="all"> 
-    <title>Paul de Kock</title>
+    <title>R Paul de Kock</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!-- Authenticité de la page -->
@@ -111,12 +111,20 @@ if (!empty($_POST)) {
     <!-- LIGHTBOX CDN -->
     <link rel="stylesheet" href="asset/css/lightbox.min.css">
     <!-- FAVICON optimisé pour tout les devices-->
+    <!-- MAP -->
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
 
     
     
 
 </head>
-<body onload="initialize()">
+<body onload="init()">
     <header>
         <nav class="menu_desktop">
             <ul>
@@ -295,6 +303,8 @@ if (!empty($_POST)) {
         </section>
         <!-- CONTACT FIN -->
 
+        <div id="mapid"></div>
+
 
     </main>
 <!-------------->
@@ -322,11 +332,10 @@ if (!empty($_POST)) {
 <!---------------->
  
  <!-- LIGHTBOX SCRIPT -->
- <script src="asset/js/lightbox-plus-jquery.min.js" charset="utf-8"></script>
-</body>
-<script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script><script> window.start.init({Palette:"palette6",Mode:"floating right",Theme:"classic",Message:"Paul de Kock utilise des cookies, en poursuivant votre navigation, vous acceptez leur utilisations.",ButtonText:"Accepter",LinkText:"Voir plus",Time:"10",})</script>
-
 <script src="asset/js/script.js"></script>
+<script src="asset/js/lightbox-plus-jquery.min.js" charset="utf-8"></script>
+</body>
+<script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script><script> window.start.init({Palette:"palette6",Mode:"floating right",Theme:"classic",Message:" R Paul de Kock utilise des cookies, en poursuivant votre navigation, vous acceptez leur utilisations.",ButtonText:"Accepter",LinkText:"Voir plus",Time:"10",})</script>
 
 
 </html>
