@@ -1,2 +1,3 @@
-'use strict';
 
+
+console.group('Profile');
