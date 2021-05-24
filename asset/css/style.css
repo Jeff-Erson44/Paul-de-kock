@@ -95,6 +95,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  width: 100%;
 }
 
 nav ul {
@@ -127,6 +128,7 @@ header::before {
   width: 17%;
   margin-left: 7%;
   margin-top: -4%;
+
 }
 .banniere {
   width: 60%;
@@ -139,18 +141,19 @@ header::before {
 }
 
 .containeur-accueil {
-  background: rgba(255, 0, 0, 0.336);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 15px;
-  width: 65%;
-  height: 33%;
-  position: absolute;
-  top: calc(55% - 17.5%);
-  left: 5%;
-  z-index: 2;
+    background: rgb(0 0 0 / 41%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    width: 48%;
+    height: 33%;
+    position: absolute;
+    top: calc(55% - 17.5%);
+    left: 5%;
+    z-index: 2;
 }
+
 
 .containeur-accueil h2 {
   color: var(--white);
@@ -454,6 +457,7 @@ textarea#message {
 /****************************/
 #mapid{
   height: 420px;
+  margin-top: -10px;
 }
 
 /******** FOOTER *********/
@@ -472,7 +476,10 @@ footer {
 footer p {
   color: var(--white);
 }
+a.text-white {
 
+  color: white;
+}
 /****************************/
 /****************************/
 /******* MEDIA QUERIES ******/

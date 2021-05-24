@@ -3,6 +3,7 @@
 console.group('Profile');
 
 function init() {
+    
     const parcThabor = {
         lat : 48.89141,
         lng : 2.43780
