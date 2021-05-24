@@ -25,6 +25,23 @@
   --secondary: #191964;
   --neon: #02fccf;
 }
+/******** COOKIES POPUP *******/
+.window.floating.right {
+  bottom: 0 !important;
+  right: 3em;
+  border-top-left-radius: 0.5em !important;
+  border-top-right-radius: 0.5em !important;
+  background: var(--black) !important;
+}
+.floating.classic .spopupbtnok {
+  display: inline-block !important;
+  background: var(--primary) !important;
+  color: var(--neon) !important;
+}
+.floating.classic .spopupbtnok:hover {
+  background: var(--neon) !important;
+  color: var(--black) !important;
+}
 
 /***** Version PC *****/
 html {
@@ -416,20 +433,46 @@ textarea#message {
   min-height: 50px;
   max-height: 170px;
 }
-
-
-
+.infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.infos p {
+  color: var(--white);
+  margin-bottom: 1.25rem;
+}
+.logoContact {
+  width: 80%;
+  margin-bottom: 5rem;
+  margin-left: 1.875rem;
+}
 
 /****************************/
-          /*MAP*/
+/*MAP*/
 /****************************/
 
 iframe.map {
   width: 100%;
 }
 
-
-
+/******** FOOTER *********/
+footer {
+  background-color: var(--primary);
+  height: 8.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+}
+.logoFooter {
+  width: 10%;
+}
+footer p {
+  color: var(--white);
+}
 
 /****************************/
 /****************************/
