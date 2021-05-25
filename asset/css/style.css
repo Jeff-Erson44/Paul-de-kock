@@ -366,8 +366,27 @@ i.fas.fa-star {
 }
 .container-partenaires {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 5%;
+  margin-right: 5%;  
+  white-space: nowrap;
+  animation: scrollTxt 120s linear infinite;
+}
+.container-partenaires figure {
+  margin-right: 12%;
+}
+.container-effet{
+  width: 100%;
+  overflow: hidden;
+}
+
+@keyframes scrollTxt {
+  0%{
+    transform: translate(0,0);
+  }
+  100%{
+    transform: translate(-100%,0);
+  }
 }
 
 /******** CONTACT *********/

@@ -249,23 +249,41 @@ if (!empty($_POST)) {
         <!-- NOS PARTENAIRES -->
         <section>
             <h2 class="title">Nos partenaires</h2>
-            <div class="container-partenaires">
-                <figure>
-                    <img class="logo_partenaires" src="asset/img/logo_renault.png">
-                </figure>
-                <figure>
-                    <img class="logo_partenaires" src="asset/img/logo_bmw.png">
-                </figure>
-                <figure>
-                    <img class="logo_partenaires" src="asset/img/logo_citroen.png">
-                </figure>
-                <figure>
-                    <img class="logo_partenaires" src="asset/img/logo_peugeot.png">
-                </figure>
-                <figure>
-                    <img class="logo_partenaires" src="asset/img/logo_reservoir_auto.png">
-                </figure>
-            </div>
+            
+                <div class="container-effet">
+                    <div class="container-partenaires">
+                        <figure>
+                            <img class="logo_partenaires" src="asset/img/logo_renault.png">
+                        </figure>
+                        <figure>
+                            <img class="logo_partenaires" src="asset/img/logo_bmw.png">
+                        </figure>
+                        <figure>
+                            <img class="logo_partenaires" src="asset/img/logo_citroen.png">
+                        </figure>
+                        <figure>
+                            <img class="logo_partenaires" src="asset/img/logo_peugeot.png">
+                        </figure>
+                        <figure>
+                            <img class="logo_partenaires" src="asset/img/logo_reservoir_auto.png">
+                        </figure>                       
+                        <figure>
+                            <img class="logo_partenaires" src="asset/img/logo_renault.png">
+                        </figure>
+                        <figure>
+                            <img class="logo_partenaires" src="asset/img/logo_bmw.png">
+                        </figure>
+                        <figure>
+                            <img class="logo_partenaires" src="asset/img/logo_citroen.png">
+                        </figure>
+                        <figure>
+                            <img class="logo_partenaires" src="asset/img/logo_peugeot.png">
+                        </figure>
+                        <figure>
+                            <img class="logo_partenaires" src="asset/img/logo_reservoir_auto.png">
+                        </figure>                       
+                    </div>         
+                </div>
         </section>
         <!-- NOS PARTENAIRES FIN -->
 
