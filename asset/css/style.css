@@ -459,6 +459,9 @@ textarea#message {
   height: 420px;
   margin-top: -10px;
 }
+.leaflet-control-attribution.leaflet-control {
+  display: none;
+}
 
 /******** FOOTER *********/
 footer {

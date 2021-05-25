@@ -3,7 +3,7 @@
 console.group('Profile');
 
 function init() {
-    
+
     const parcThabor = {
         lat : 48.89141,
         lng : 2.43780
@@ -14,10 +14,9 @@ function init() {
     const map = L.map("mapid").setView([parcThabor.lat, parcThabor.lng], zoomLevel);
 
     const mainLayer  = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
         maxZoom: 25,
         id: 'mapbox/streets-v11',
-        accessToken: 'pk.eyJ1IjoiamVmZmVyc29uNDQiLCJhIjoiY2twMzFxY3Z2MDA2MDJ3bHIwMnVwcm40NCJ9.ctfgJTxkntwoYjjEmBakpg'
+        accessToken: 'pk.eyJ1IjoiamVmZmVyc29uNDQiLCJhIjoiY2twMzFxY3Z2MDA2MDJ3bHIwMnVwcm40NCJ9.ctfgJTxkntwoYjjEmBakpg',
     });
 
     mainLayer.addTo(map);
@@ -35,8 +34,34 @@ function init() {
 
     L.marker([48.89141, 2.43780], {icon: PaulIcon}).addTo(map);
 
-
 }
+
+const counters = document.querySelectorAll('.counter');
+
+
+counters.forEach(counter => {
+	
+	counter.innerText = '1000';
+	
+	const updateCounter = () => {
+		const target = +counter.getAttribute('data-target');
+		const c = +counter.innerText;
+		
+
+		const increment = target / 1000;
+		
+		if( c < target) {
+			counter.innerText = c +1;
+            setTimeout(updateCounter, 0.1)
+		} else {
+			counter.innerText = target;
+		}
+	};
+	
+	updateCounter();
+});
+
+
 
 
 

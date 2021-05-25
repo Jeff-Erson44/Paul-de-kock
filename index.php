@@ -119,6 +119,13 @@ if (!empty($_POST)) {
    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    crossorigin=""></script>
 
+   <script src='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
+   <link href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
+
+   
+
+
+
     
     
 
@@ -188,23 +195,17 @@ if (!empty($_POST)) {
             <ul class="ul-bandeau">
                 <li class="li-bandeau">
                     <i class="fas fa-star"></i>
-                    <p>Numbers</p>
-                    <p>Lorem Ipsum</p>
+                    <div>Nous sommes né en <div>
+                    <div class="counter" data-target="2000"> Number </div>
                 </li>
                 <li class="li-bandeau">
                     <i class="fas fa-star"></i>
-                    <p>Numbers</p>
-                    <p>Lorem Ipsum</p>
-                </li>
-                <li class="li-bandeau">
+                    <div>Nous sommes né en <div>
+                    <div class="counter" data-target="2000"> Number </div>  
+                </li> <li class="li-bandeau">
                     <i class="fas fa-star"></i>
-                    <p>Numbers</p>
-                    <p>Lorem Ipsum</p>
-                </li>
-                <li class="li-bandeau">
-                    <i class="fas fa-star"></i>
-                    <p>Numbers</p>
-                    <p>Lorem Ipsum</p>
+                    <div>Nous sommes né en <div>
+                    <div class="counter" data-target="2000"> Number </div>
                 </li>
             </ul>
         </div>
@@ -306,6 +307,7 @@ if (!empty($_POST)) {
         <!-- CONTACT FIN -->
 
         <div id="mapid"></div>
+       
 
 
     </main>
