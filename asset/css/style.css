@@ -256,17 +256,18 @@ button {
   z-index: -1;
 }
 
-/******** BANDEAU COMPTEURS ********/
+/******** BANDEAU COMPTEURS *******/
 .bandeau {
+  display: flex;
   background: var(--primary);
-  height: 21.4rem;
+  height: 18.4rem;
   width: 100%;
   margin-top: 8rem;
 }
 .ul-bandeau {
   display: flex;
   flex-direction: row;
-  padding: 9rem 15rem;
+  padding: 3rem 15rem;
   width: 100%;
   justify-content: space-around;
 }
@@ -279,13 +280,20 @@ li.li-bandeau {
 i {
   color: var(--white);
   font-size: 3rem;
-}
-i.fas.fa-star {
+}*/
+i.fas.fa-building, i.fas.fa-hands-helping, i.fas.fa-building {
   margin-bottom: 30px;
   margin-top: -20px;
 }
-.numbers {
-  margin-bottom: 15px;
+.counter{
+  color: var(--white);
+  margin: 30px 0;
+  font-size: 2rem;
+}
+.text-counter{
+  color: var(--white);
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 /******** NOS PRESTATIONS *********/
@@ -370,7 +378,7 @@ i.fas.fa-star {
   margin-bottom: 5%;
   margin-right: 5%;  
   white-space: nowrap;
-  animation: scrollTxt 120s linear infinite;
+  animation: scrollTxt 200s linear infinite;
 }
 .container-partenaires figure {
   margin-right: 12%;

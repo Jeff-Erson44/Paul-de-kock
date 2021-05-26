@@ -194,22 +194,25 @@ if (!empty($_POST)) {
         <div class="bandeau">
             <ul class="ul-bandeau">
                 <li class="li-bandeau">
-                    <i class="fas fa-star"></i>
-                    <div>Nous sommes né en <div>
-                    <div class="counter" data-target="2000"> Number </div>
+                    <i class="fas fa-building"></i>
+                    <div class="text-counter">Nous existons depuis <div>
+                    <div class="counter" data-target="21"></div>
+                    <div class="text-counter"> Ans <div>
                 </li>
                 <li class="li-bandeau">
-                    <i class="fas fa-star"></i>
-                    <div>Nous sommes né en <div>
-                    <div class="counter" data-target="2000"> Number </div>  
+                    <i class="fas fa-hands-helping"></i>
+                    <div class="text-counter">Nous avons plus de  <div>
+                    <div class="counter" data-target="8"> Number </div>
+                    <div class="text-counter"> Partenaires <div> 
                 </li> <li class="li-bandeau">
                     <i class="fas fa-star"></i>
-                    <div>Nous sommes né en <div>
+                    <div class="text-counter">Nous sommes né en <div>
                     <div class="counter" data-target="2000"> Number </div>
                 </li>
             </ul>
         </div>
-        <!-- BANDEAU COMPTEURS FIN -->
+
+       <!--BANDEAU COMPTEURS FIN  -->
 
         <!-- NOS PRESTATIONS -->
         <section id="prestations">
@@ -359,6 +362,18 @@ if (!empty($_POST)) {
 <script src="asset/js/lightbox-plus-jquery.min.js" charset="utf-8"></script>
 </body>
 <script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script><script> window.start.init({Palette:"palette6",Mode:"floating right",Theme:"classic",Message:" R Paul de Kock utilise des cookies, en poursuivant votre navigation, vous acceptez leur utilisations.",ButtonText:"Accepter",LinkText:"Voir plus",Time:"10",})</script>
+
+<!-- Hotjar Tracking Code for pauldekock.fr -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2419966,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 
 
 </html>

@@ -41,18 +41,18 @@ const counters = document.querySelectorAll('.counter');
 
 counters.forEach(counter => {
 	
-	counter.innerText = '1000';
+	counter.innerText = '0';
 	
 	const updateCounter = () => {
 		const target = +counter.getAttribute('data-target');
 		const c = +counter.innerText;
 		
 
-		const increment = target / 1000;
+	
 		
 		if( c < target) {
 			counter.innerText = c +1;
-            setTimeout(updateCounter, 0.1)
+            setTimeout(updateCounter, 50)
 		} else {
 			counter.innerText = target;
 		}
