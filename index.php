@@ -92,6 +92,7 @@ if (!empty($_POST)) {
     <!-- Balise META -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="expires" content="43200"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"  content="Paul de Kock, Remorquage automobile. Intervention en urgence ou sur RDV, Paris et Ile-de-France. Remorquage tout type de véhicules, en sous-sol, brûlée, accidenté. Dépanneur professionnel, services efficace et rapide.">
     <meta name="robots" content="all"> 

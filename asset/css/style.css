@@ -297,8 +297,10 @@ i.fas.fa-building, i.fas.fa-hands-helping, i.fas.fa-building {
 }
 
 /******** NOS PRESTATIONS *********/
-#prestations {
-  position: relative;
+
+#prestations{
+  display: flex;
+  flex-wrap: wrap;
 }
 .image-presta {
   position: relative;
@@ -518,6 +520,9 @@ a.text-white {
 
 /******    ACCUEIL      *****/
 @media screen and (max-width: 375px) {
+  main{
+    width: 184%;
+  }
   .menu_desktop {
     display: none;
   }
@@ -585,7 +590,17 @@ a.text-white {
     width: 91px;
   }
 
+  /********   CONTACT    **********/
+
+
+
+  
+
   /********   FOOTER    **********/
+
+  footer{
+    width: 184%;
+  }
   .container-social {
     position: absolute;
     display: flex;
