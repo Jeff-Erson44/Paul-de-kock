@@ -258,7 +258,7 @@ if (!empty($_POST)) {
                 </div>
                 <div class="box-presta">
                     <img class="image-presta" src="asset/img/presta3.jpg" data-lightbox="mygallery" alt="prestation">
-                    <article class="article-presta">
+                    <article class="article-presta trois">
                         <h4>Paul de Kock</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus dolor ea nulla? Dolor officia natus nostrum, ab voluptatum odit itaque maxime, veritatis similique animi voluptates perferendis nobis labore modi sapiente.</p>
                     </article>
