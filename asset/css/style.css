@@ -435,6 +435,10 @@ i.fas.fa-building {
   opacity: 0.75;
   height: inherit;
   width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .formulaire {
   background: var(--white);
@@ -477,12 +481,7 @@ textarea#message {
   min-height: 50px;
   max-height: 170px;
 }
-.infos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+
 .infos p {
   color: var(--white);
   margin-bottom: 1.25rem;
@@ -532,7 +531,7 @@ a.text-white {
 /******    ACCUEIL      *****/
 @media screen and (max-width: 375px) {
   main {
-    width: 184%;
+    width: 186%;
   }
   .menu_desktop {
     display: none;
@@ -575,8 +574,8 @@ a.text-white {
   button {
     padding: 10px 40px;
     position: absolute;
-    top: 83%;
-    left: 40%;
+    top: 122%;
+    left: 54%;
     font-size: 1rem;
   }
 
@@ -601,22 +600,55 @@ a.text-white {
     width: 91px;
   }
 
+  /******** PRESTA   **********/
+  .box-presta{
+    display: block;
+  }
+
   /********   CONTACT    **********/
+
+  .container-contact{
+    display: block;
+    top: calc(25% - 225px);
+    left: calc(25% - 170px);
+    padding: 0 6%;
+    
+  }
+  .infos{
+    width: 150%;
+    height: 250px;
+  }
+  .logoContact {
+    width: 45%;
+    margin-bottom: 2rem;
+    margin-left: 1.875rem;  
+  }
+  .formulaire {
+    width: 150%;
+    display: flex;
+    padding: 10% 17%;
+  }
+  .nomPrenom{
+    display: block;
+  }
+
+  #nom, #prenom {
+    width: 100%;
+  }
+  input{
+    margin-bottom: 50px;
+  }
+
 
   /********   FOOTER    **********/
 
   footer {
-    width: 184%;
+    width: 186%;
   }
-  .container-social {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    right: 25px;
-    bottom: 45px;
-  }
-  .icone-reseau {
-    margin: 15px;
-    color: var(--primary); /************ faudra la changer */
-  }
+
+
+
+
+
+
 }

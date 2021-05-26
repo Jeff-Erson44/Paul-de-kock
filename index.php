@@ -225,7 +225,7 @@ if (!empty($_POST)) {
                 </li> <li class="li-bandeau">
                     <i class="fas fa-star"></i>
                     <div class="text-counter">Nous sommes né en <div>
-                    <div class="counter" data-target="2000"> Number </div>
+                    <div class="counter"> 2000 </div>
                 </li>
             </ul>
         </div>
@@ -315,7 +315,7 @@ if (!empty($_POST)) {
             <div class="container-contact">
                 <div class="infos">
                     <svg class="logoContact" id="logoC" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340.92 60.02"><defs><style>.cls-1{font-size:54.07px;fill:#ffffff;font-family:BrushScriptStd, Brush Script Std;}</style></defs><text class="cls-1" transform="translate(0 44.88)"><tspan xml:space="preserve">Paul de Kock </tspan></text></svg>
-                    <p>2, rue des carrières 93230 Romainville</p>
+                    <p>2, rue des Carrières 93230 Romainville</p>
                     <p>Lundi-Vendredi / 8h-18h</p>
                     <p>pauldekock@free.fr</p>
                 </div>
@@ -359,17 +359,10 @@ if (!empty($_POST)) {
 <!-- FOOTER -->
 <!------------>
     
-<footer>
-        <svg class="logoFooter" id="logoF" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340.92 60.02"><defs><style>.cls-1{font-size:54.07px;fill:#ffffff;font-family:BrushScriptStd, Brush Script Std;}</style></defs><text class="cls-1" transform="translate(0 44.88)"><tspan xml:space="preserve">Paul de Kock </tspan></text></svg>
+    <footer>
+        <p>R Paul de Kock</p>
         <p>&copy; 2021 Copyright - Paul de Kock</p>
         <p><a href="mentions.html" title="Mentions légales" class="text-white">Mentions légales</a></p>
-        <!--
-        <div class="container-social"> on le met en flex column et  c carré 
-            <i class="icone-reseau fab fa-facebook-f"></i>
-            <i class="icone-reseau fab fa-linkedin-in"></i>
-        </div>
-    -->
-        
     </footer>
 <!---------------->
 <!-- FOOTER FIN -->
