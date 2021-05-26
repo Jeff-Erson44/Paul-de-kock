@@ -134,6 +134,7 @@ if (!empty($_POST)) {
 <body onload="init()">
     <header>
         <nav class="menu_desktop">
+            <a href="#" class="logo">Paul de Kock</a>
             <ul>
                 <li><a href="#quisommesnous">Qui sommes-nous</a></li>
                 <li><a href="#prestations">Nos prestations</a></li>
@@ -151,10 +152,6 @@ if (!empty($_POST)) {
         <!-- ACCUEIL -->
         <i class="fas fa-chevron-left"></i>
         <i class="fas fa-chevron-right"></i>
-        
-        <div class="logo">
-            <svg class="theLogo" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340.92 60.02"><defs><style>.cls-1{font-size:54.07px;fill:#ffffff;font-family:BrushScriptStd, Brush Script Std;}</style></defs><text class="cls-1" transform="translate(0 44.88)"><tspan xml:space="preserve">Paul de Kock </tspan></text></svg>
-        </div>
 
         <figure class="diapo">
             <img class="banniere" src="asset/img/203.jpg" alt=" image diapo">
