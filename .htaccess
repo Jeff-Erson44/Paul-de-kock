@@ -1,6 +1,5 @@
 # ERROR 404 
 
-ErrorDocument 404 /404.php
 
 # Redirection page http en https  
 
@@ -10,45 +9,3 @@ ErrorDocument 404 /404.php
   RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 </IfModule>
 
-#CACHE ET COMPRESSION
-
-# Apache 2.0
-SetOutputFilter DEFLATE
-AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript
-
-<IfModule mod_expires.c>
-    ExpiresActive on
-    ExpiresDefault "access plus 1 month"
-    ExpiresByType text/css "access plus 1 day"
-    ExpiresByType image/png "access plus 1 week"
-    ExpiresByType image/gif "access plus 1 week"
-    ExpiresByType image/jpeg "access plus 1 week"
-</IfModule>
-
-# Cache
-<IfModule mod_expires.c>
-    ExpiresActive on
-    ExpiresByType application/x-javascript "access plus 2 month"
-    ExpiresByType application/javascript "access plus 2 month"
-    ExpiresByType text/javascript "access plus 2 month"
-</IfModule>
-
-# Compression pour fichiers JS
-<IfModule mod_gzip.c>
-    mod_gzip_on       Yes
-    mod_gzip_dechunk  Yes
-    mod_gzip_minimum_file_size 512
-    mod_gzip_maximum_file_size 1000000
-    mod_gzip_item_include file \.js$
-    mod_gzip_item_include mime ^application/x-javascript.*
-</IfModule>
-
-# Compression pour fichiers CSS
-<IfModule mod_gzip.c>
-    mod_gzip_on       Yes
-    mod_gzip_dechunk  Yes
-    mod_gzip_minimum_file_size 1024
-    mod_gzip_maximum_file_size 100000
-    mod_gzip_item_include file \.css$
-    mod_gzip_item_include mime ^text/css$
-</IfModule>
