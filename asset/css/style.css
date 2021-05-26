@@ -80,7 +80,7 @@ nav {
 }
 nav.sticky {
   padding: 5px 100px;
-  background: var(--primary);
+  background: var(--black);
 }
 .logo {
   position: relative;
@@ -370,6 +370,10 @@ i.fas.fa-building {
 }
 .article-presta:nth-child(odd) {
   background: var(--primary);
+  color: var(--white);
+}
+.article-presta.trois {
+  background: var(--black);
   color: var(--white);
 }
 .article-presta h4 {
