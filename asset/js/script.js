@@ -32,7 +32,7 @@ function init() {
 
     L.marker([48.89141, 2.43780], {icon: PaulIcon}).addTo(map);
 
-}0
+}
 
 const counters = document.querySelectorAll('.counter');
 
@@ -57,6 +57,14 @@ counters.forEach(counter => {
 	};
 	
 	updateCounter();
+
+
+    window.addEventListener("scroll", function(){
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("sticky", window.scrollY > 0);
+    })
+
+
 });
 
 
