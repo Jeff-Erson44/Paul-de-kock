@@ -92,7 +92,6 @@ if (!empty($_POST)) {
     <!-- Balise META -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="expires" content="43200"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"  content="Paul de Kock, Remorquage automobile. Intervention en urgence ou sur RDV, Paris et Ile-de-France. Remorquage tout type de véhicules, en sous-sol, brûlée, accidenté. Dépanneur professionnel, services efficace et rapide.">
     <meta name="robots" content="all"> 
@@ -162,10 +161,12 @@ if (!empty($_POST)) {
 <!-- MAIN -->
 <!---------->
     <main>
+        <!-- CURSEUR POINTER -->
+        <div class="cursor"></div>
+
+
 
         <!-- ACCUEIL -->
-        <i class="fas fa-chevron-left"></i>
-        <i class="fas fa-chevron-right"></i>
 
         <figure class="diapo">
             <img class="banniere" src="asset/img/203.jpg" alt=" image diapo">
@@ -176,7 +177,7 @@ if (!empty($_POST)) {
             <h2>Interventions sur Paris et en Île-de-France</h2>
             <h1>Atelier de dépannage automobile</h1>
             <p>
-                <button type="button">En savoir plus</button>
+                <button type="button" class="bouton" href="#quisommesnous">En savoir plus</button>
             </p>
         </div>
         <!-- ACCUEIL FIN -->
@@ -219,9 +220,10 @@ if (!empty($_POST)) {
                     <div class="text-counter">Nous avons plus de  <div>
                     <div class="counter" data-target="8"> Number </div>
                     <div class="text-counter"> Partenaires <div> 
-                </li> <li class="li-bandeau">
+                </li> 
+                <li class="li-bandeau">
                     <i class="fas fa-star"></i>
-                    <div class="text-counter">Nous sommes né en <div>
+                    <div class="text-counter">Nous sommes né en </div>
                     <div class="counter"> 2000 </div>
                 </li>
             </ul>

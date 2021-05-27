@@ -61,8 +61,14 @@ counters.forEach(counter => {
 
     window.addEventListener("scroll", function(){
         var nav = document.querySelector("nav");
-        nav.classList.toggle("sticky", window.scrollY > 0);
+        nav.classList.toggle("sticky", window.scrollY > 667);
     })
+
+    /*const cursor = document.querySelector('.cursor');
+
+    document.addEventListener('mousemove', e => {
+        cursor.setAttribute('style', 'top:' + (e.pageY - 6 ) + "px; left:"+(e.pageX - 6) + "px")
+    })*/
 
 
 });

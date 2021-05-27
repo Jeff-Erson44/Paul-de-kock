@@ -43,6 +43,7 @@
   color: var(--black) !important;
 }
 
+
 /***** Version PC *****/
 html {
   font-family: 'NexaBold', sans-serif;
@@ -181,23 +182,11 @@ nav.sticky a::after {
 
 .containeur-accueil h1::before {
   position: absolute;
-  content: '';
+  content:'';
   width: 20%;
   height: 3px;
   bottom: 150px;
   background-color: var(--neon);
-}
-
-.fa-chevron-left,
-.fa-chevron-right {
-  position: absolute;
-  bottom: 35px;
-  right: 30px;
-  color: var(--neon);
-  font-size: 24px;
-}
-.fa-chevron-left {
-  right: 80px;
 }
 
 /******** BOUTONS ********/
@@ -583,10 +572,7 @@ a.text-white {
     font-size: 1rem;
   }
 
-  .fa-chevron-left,
-  .fa-chevron-right {
-    display: none;
-  }
+
 
   /******** QUI SOMMES NOUS ********/
 
