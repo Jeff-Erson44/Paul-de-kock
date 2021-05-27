@@ -70,6 +70,14 @@ counters.forEach(counter => {
         cursor.setAttribute('style', 'top:' + (e.pageY - 6 ) + "px; left:"+(e.pageX - 6) + "px")
     })*/
 
+    //menu burger
+    const hamburger = document.getElementById('hamburger');
+    const closeBurger = document.getElementById('close');
+    const navUL = document.getElementById('nav-ul');
+
+    hamburger.addEventListener('click', () => {
+        closeBurger.classList.toggleClass('navOpen');
+    });
 
 });
 

@@ -5,6 +5,12 @@
 }
 /***** FONT-FACES *****/
 @font-face {
+  font-family: 'BrushScriptStd';
+  src: url('../font/BrushScriptStd.woff') format('woff'),
+    url('../font/BrushScriptStd.woff2') format('woff2');
+  font-weight: normal;
+}
+@font-face {
   font-family: 'NexaBold';
   src: url('../font/NexaBold.woff') format('woff'),
     url('../font/NexaBold.woff2') format('woff2');
@@ -43,7 +49,6 @@
   color: var(--black) !important;
 }
 
-
 /***** Version PC *****/
 html {
   font-family: 'NexaBold', sans-serif;
@@ -72,6 +77,7 @@ nav {
   left: 0;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   transition: 0.6s;
@@ -84,10 +90,12 @@ nav.sticky {
   background: var(--black);
 }
 .logo {
+  font-family: "BrushScriptStd";
   position: relative;
   color: var(--white);
   text-decoration: none;
   transition: 0.6s;
+  font-size: 2rem;
 }
 
 nav ul {
@@ -140,6 +148,20 @@ nav.sticky a::after {
 nav.sticky a::after {
   background: var(--white);
 }
+/* menu burger */
+.hamburger,#close {
+  display: none;
+  background-color: transparent;
+  border: 0;
+  color: var(--white);
+  cursor: pointer;
+}
+.fa-bars, .fa-times {
+  font-size: 1.25rem;
+}
+.hamburger:focus, #close:focus {
+  outline: none;
+}
 /*********  ACCUEIL    ***********/
 
 .banniere {
@@ -182,7 +204,7 @@ nav.sticky a::after {
 
 .containeur-accueil h1::before {
   position: absolute;
-  content:'';
+  content: '';
   width: 20%;
   height: 3px;
   bottom: 150px;
@@ -572,8 +594,6 @@ a.text-white {
     font-size: 1rem;
   }
 
-
-
   /******** QUI SOMMES NOUS ********/
 
   /******** BANNER BOTTOM ********/
@@ -591,54 +611,71 @@ a.text-white {
   }
 
   /******** PRESTA   **********/
-  .box-presta{
+  .box-presta {
     display: block;
   }
 
   /********   CONTACT    **********/
 
-  .container-contact{
+  .container-contact {
     display: block;
     top: calc(25% - 225px);
     left: calc(25% - 170px);
     padding: 0 6%;
-    
   }
-  .infos{
+  .infos {
     width: 150%;
     height: 250px;
   }
   .logoContact {
     width: 45%;
     margin-bottom: 2rem;
-    margin-left: 1.875rem;  
+    margin-left: 1.875rem;
   }
   .formulaire {
     width: 150%;
     display: flex;
     padding: 10% 17%;
   }
-  .nomPrenom{
+  .nomPrenom {
     display: block;
   }
 
-  #nom, #prenom {
+  #nom,
+  #prenom {
     width: 100%;
   }
-  input{
+  input {
     margin-bottom: 50px;
   }
-
 
   /********   FOOTER    **********/
 
   footer {
     width: 186%;
   }
-
-
-
-
-
-
 }
+@media screen and (max-width: 767px) {
+  /* menu burger */
+  .nav-ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .navOpen nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fa-bars, .fa-times{
+    font-size: 3rem;
+  }
+  .hamburger{
+    display: block;
+  }
+  #close{
+    display: none;
+  }
+  .logo{
+    font-size: 3rem;
+  }

@@ -148,7 +148,13 @@ if (!empty($_POST)) {
     <header>
         <nav class="menu_desktop">
             <a href="index.php" class="logo">Paul de Kock</a>
-            <ul>
+            <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+            </button>
+            <button id="close">
+                <i class="fas fa-times"></i>
+            </button>
+            <ul class="nav-ul" id="nav-ul">
                 <li><a href="#quisommesnous" class="active">Qui sommes-nous</a></li>
                 <li><a href="#prestations">Nos prestations</a></li>
                 <li><a href="#contact">Contact</a></li>
