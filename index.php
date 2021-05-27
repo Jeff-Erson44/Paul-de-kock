@@ -148,7 +148,7 @@ if (!empty($_POST)) {
 <body onload="init()">
     <header>
         <nav class="menu_desktop">
-            <a href="#" class="logo">Paul de Kock</a>
+            <a href="index.php" class="logo">Paul de Kock</a>
             <ul>
                 <li><a href="#quisommesnous" class="active">Qui sommes-nous</a></li>
                 <li><a href="#prestations">Nos prestations</a></li>
