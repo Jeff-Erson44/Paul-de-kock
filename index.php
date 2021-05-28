@@ -148,9 +148,9 @@ if (!empty($_POST)) {
     <header>
         <nav class="menu_desktop">
             <a href="index.php" class="logo">Paul de Kock</a>
-            <button class="hamburger" id="hamburger">
+           <!-- <button class="hamburger" id="hamburger">
             <i class="fas fa-bars"></i>
-            </button>
+            </button>-->
             <button id="close">
                 <i class="fas fa-times"></i>
             </button>
@@ -223,9 +223,9 @@ if (!empty($_POST)) {
                 </li>
                 <li class="li-bandeau">
                     <i class="fas fa-hands-helping"></i>
-                    <div class="text-counter">Nous avons plus de  <div>
-                    <div class="counter" data-target="8"> Number </div>
-                    <div class="text-counter"> Partenaires <div> 
+                    <div class="text-counter">Nous existons depuis <div>
+                    <div class="counter" data-target="21"></div>
+                    <div class="text-counter"> Ans <div>
                 </li> 
                 <li class="li-bandeau">
                     <i class="fas fa-star"></i>

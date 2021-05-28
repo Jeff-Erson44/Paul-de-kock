@@ -119,6 +119,7 @@ header::before {
   width: 32%;
   height: 100vh;
   z-index: -2;
+  border-radius: 0px 0px 40px 0px;
 }
 nav.sticky ul li a {
   color: var(--white);
@@ -237,10 +238,10 @@ button {
 .title-about::before {
   position: absolute;
   content: '';
-  width: 20%;
+  width: 12%;
   height: 3px;
-  bottom: 0;
-  left: 11%;
+  bottom: -6%;
+  left: 23%;
   background-color: var(--neon);
 }
 .container-about {
@@ -270,7 +271,7 @@ button {
   display: block;
   position: absolute;
   left: 22%;
-  top: 130%;
+  top: 120%;
   height: 43.1rem;
   width: 29.5rem;
   border: 4px solid var(--primary);
@@ -521,7 +522,7 @@ textarea#message {
 /******** FOOTER *********/
 footer {
   background-color: var(--primary);
-  height: 8.6rem;
+  height: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -533,6 +534,7 @@ footer {
 }
 footer p {
   color: var(--white);
+  font-size: 0.8rem;
 }
 a.text-white {
   color: white;
@@ -679,3 +681,4 @@ a.text-white {
   .logo{
     font-size: 3rem;
   }
+}
