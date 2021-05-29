@@ -302,8 +302,7 @@ if (!empty($_POST)) {
                 </figure>
                 <article class="article-presta">
                     <h4>Remorquage auto</h4>
-                    <p>Nous remorquons tout type de voitures, des véhicules léger, des utilitaires avec ou sans clés.
-                    pour tout type de vehicules (20m3, petit engins de chantier, carvanes ...).</p>
+                    <p>Nous remorquons tout type de voiture, des véhicules léger, des utilitaires avec ou sans clés, pour tout type de vehicule (20m3, petit engins de chantier, caravanes ...).</p>
                 </article>
             </div>
             <div class="container_partenaire">
@@ -313,7 +312,7 @@ if (!empty($_POST)) {
                 <article class="article-presta">
                     <h4>Remorquage moto</h4>
                     <p>Nous dépanneurs-remorqueurs sont aptes à intervenir sur tout type de moto, scooter cyclomoteurs.
-                    Transporter sur un plateau adapté au deux roues vers un garagiste choisi par me client.</p>
+                    Transporter sur un plateau adapté au deux roues vers un garagiste choisi par e client.</p>
                 </article>
             </div>
 

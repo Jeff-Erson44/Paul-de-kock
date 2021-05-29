@@ -14,7 +14,7 @@ function init() {
     const map = L.map("mapid").setView([parcThabor.lat, parcThabor.lng], zoomLevel);
 
     const mainLayer  = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-        maxZoom: 25,
+        maxZoom: 19,
         id: 'mapbox/streets-v11',
         accessToken: 'pk.eyJ1IjoiamVmZmVyc29uNDQiLCJhIjoiY2twMzFxY3Z2MDA2MDJ3bHIwMnVwcm40NCJ9.ctfgJTxkntwoYjjEmBakpg',
     });
@@ -25,9 +25,7 @@ function init() {
         iconUrl: 'asset/img/favicon_marker2-01.png',
         iconSize:     [55, 52], // size of the icon
         shadowSize:   [50, 64], // size of the shadow
-        iconAnchor:   [32, -12], // point of the icon which will correspond to marker's location
-        shadowAnchor: [4, 62],  // the same for the shadow
-        popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+        iconAnchor:   [-31, -68], // point of the icon which will correspond to marker's location
     });
 
     L.marker([48.89141, 2.43780], {icon: PaulIcon}).addTo(map);
