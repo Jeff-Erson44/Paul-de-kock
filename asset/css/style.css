@@ -232,6 +232,10 @@ button {
   cursor: pointer;
 }
 /******** QUI SOMMES NOUS ********/
+#quisommesnous_mobile{
+  display: none;
+}
+
 #quisommesnous {
   background: none;
 }
@@ -394,6 +398,9 @@ i.fas.fa-building {
 }
 
 /******** NOS PARTENAIRES *********/
+#partenaitres_mobile{
+  display: none;
+}
 .logo_partenaires {
   width: 100px;
   filter: grayscale(100%);
@@ -539,126 +546,149 @@ footer p {
 a.text-white {
   color: white;
 }
-/****************************/
-/****************************/
-/******* MEDIA QUERIES ******/
-/****************************/
-/****************************/
 
-/******    ACCUEIL      *****/
-@media screen and (max-width: 375px) {
-  main {
-    width: 186%;
-  }
-  .menu_desktop {
+
+
+@media only screen and (max-width: 375px){
+
+/******** INITIALISATION *********/
+  #prestations, #quisommesnous{
     display: none;
   }
-  .bloc-bleu {
+  h2.title{
+    font-size: 1.8rem;
+  }
+  nav.sticky{
+    display: none;
+  }
+  .menu_desktop{
+    display: none;
+  }
+  header::before{
     width: 60%;
   }
-  .banniere {
-    display: none;
-  }
-  .banniere2 {
+
+
+/******** QUI SOMMES NOUS MOBILE *********/   
+
+  #quisommesnous_mobile{
     display: block;
-    position: absolute;
-    right: 0;
-    top: 20%;
-  }
-  .logo {
-    width: 70%;
-    padding: 35px 5px;
-  }
-  .containeur-accueil {
-    top: 50%;
-  }
-  .containeur-accueil h1 {
-    font-size: 20px;
-    line-height: 22px;
-    position: absolute;
-    bottom: 25%;
-  }
-  .containeur-accueil h1::before {
-    position: absolute;
-    bottom: -30%;
-    width: 35%;
-  }
-  .containeur-accueil h2 {
-    position: absolute;
-    top: 55%;
-    width: 70%;
-  }
-  button {
-    padding: 10px 40px;
-    position: absolute;
-    top: 122%;
-    left: 54%;
-    font-size: 1rem;
   }
 
-  /******** QUI SOMMES NOUS ********/
+  .img-about {
+    width: 60%;
+  }
 
-  /******** BANNER BOTTOM ********/
-  .banner-bottom {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: var(--primary);
+/******** PARTENAIRES *********/ 
+
+  #partenaires_mobile{
+    display: block;
+  }
+  .article-presta{
     width: 100%;
-    height: 59px;
+    color: var(--white);
   }
-  .logo-banner {
-    width: 91px;
+  .container_partenaire{
+    width: 100%;
+    padding: 2% 5%;
+  }
+  .img_presta_mob{
+    width: 100%;
+  }
+  .article-presta{
+    padding: 2% 5%;
+  }
+  .article-presta h4{
+    font-size: 1.75rem;
+  }
+  .article-presta:nth-child(1){
+    background: var(--white);
+  }
+  .article-presta:nth-child(2){
+    background: var(--primary);
+  }
+  .article-presta:nth-child(3){
+    background: var(--black);
   }
 
-  /******** PRESTA   **********/
-  .box-presta {
+
+
+
+
+/******** BANNER *********/ 
+
+  .bandeau{
+    height: fit-content;
+  }
+  .fa, .fas { 
+    font-size: 2rem;
+  }
+  .counter{
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  .text-counter{
+    margin-top: 10px;
+  }
+  li.li-bandeau {
+    margin-top: 5%;
+}
+
+
+.logo_partenaires{
+  width: 80px;
+}
+/******** CONTACT *********/   
+  .container-contact{
     display: block;
+    height: fit-content;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5%;
   }
-
-  /********   CONTACT    **********/
-
-  .container-contact {
-    display: block;
-    top: calc(25% - 225px);
-    left: calc(25% - 170px);
-    padding: 0 6%;
+  .infos{
+    width: 100%;
   }
-  .infos {
-    width: 150%;
-    height: 250px;
-  }
-  .logoContact {
-    width: 45%;
-    margin-bottom: 2rem;
-    margin-left: 1.875rem;
-  }
-  .formulaire {
-    width: 150%;
-    display: flex;
-    padding: 10% 17%;
+  .formulaire{
+    height: 600px;
+    width: 100%;
   }
   .nomPrenom {
     display: block;
   }
-
-  #nom,
-  #prenom {
+  #nom, #prenom {
     width: 100%;
   }
-  input {
-    margin-bottom: 50px;
+  button{
+    margin: 20px 60px;
   }
+  small {
+    margin-top: 85px;
+}
 
-  /********   FOOTER    **********/
 
-  footer {
-    width: 186%;
+/******** BANDEAU *********/ 
+  .ul-bandeau {
+    padding: 0; 
+  }
+/******** FOOTER *********/ 
+  #mapid{
+    height: 280px;
+  }
+/******** FOOTER *********/ 
+  footer{
+    padding: 0 5%;
+  }
+  footer p{
+    font-size: 0.5rem;
   }
 }
+
+
+
 @media screen and (max-width: 767px) {
-  /* menu burger */
+   menu burger 
   .nav-ul {
     display: none;
     flex-direction: column;

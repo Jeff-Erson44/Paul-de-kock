@@ -167,17 +167,15 @@ if (!empty($_POST)) {
 <!-- MAIN -->
 <!---------->
     <main>
-        <!-- CURSEUR POINTER -->
-        <div class="cursor"></div>
-
-
 
         <!-- ACCUEIL -->
+        <div id="accueil">
+            <figure class="diapo">
+                <img class="banniere" src="asset/img/203.jpg" alt=" image diapo">
+                <img class="banniere2" src="asset/img/203-mobile.jpg" alt=" image diapo responsive">
+            </figure>
+        </div>
 
-        <figure class="diapo">
-            <img class="banniere" src="asset/img/203.jpg" alt=" image diapo">
-            <img class="banniere2" src="asset/img/203-mobile.jpg" alt=" image diapo responsive">
-        </figure>
 
         <div class="containeur-accueil">
             <h2>Interventions sur Paris et en Île-de-France</h2>
@@ -208,6 +206,18 @@ if (!empty($_POST)) {
                     </p>
                 </div>
             </div>
+        </section>
+
+        <section id="quisommesnous_mobile">
+            <h2 class="title title-about">Qui sommes-nous</h2>
+            <figure>
+                <img class="img-about" src="asset/img/paulfake.jpg" alt="">
+            </figure>
+            
+            <p class="texte">R PAUL DE KOCK SARL créée en 2000 .Nous sommes des dépanneurs professionnels expérimentés. Nous opérons
+            de manières rapide et efficace sur Paris et dans le reste de l'Ile de France. Nous remorquons tout type de véhicule, en sous-sol, parking,
+            véhicule brulé, accidenté, épaves.
+            Nous avons pour objectif de répondre à vos besoins de remorquage avec un service de qualité et des experts qui vous garantirons un travail soigné.</p>
         </section>
         <!-- QUI SOMMES NOUS FIN -->
 
@@ -252,14 +262,14 @@ if (!empty($_POST)) {
                     <article class="article-presta">
                         <h4>Dépannage sur place</h4>
                         <p>Nos dépanneurs-remorqueurs sont aptes à intervenir en sous-sol, en étage, en pleine rue et en fourrière.
-                        dans des actions types: coup de batterie et roue crevée</p>
+                        dans des actions types: coup de batterie et roue crevée.</p>
                     </article>
                 </div>
                 <div class="box-presta">
                     <article class="article-presta">
                         <h4>Remorquage auto</h4>
                         <p> Nous remorquons tout type de voitures, des véhicules léger, des utilitaires avec ou sans clés.
-                        pour tout type de vehicules (20m3, petit engins de chantier, carvannes ...)</p>
+                        pour tout type de vehicules (20m3, petit engins de chantier, carvanes ...)</p>
                     </article>
                     <img class="image-presta" src="asset/img/presta2.jpg" data-lightbox="mygallery" alt="prestation">
                 </div>
@@ -268,12 +278,46 @@ if (!empty($_POST)) {
                     <article class="article-presta trois">
                         <h4>Remorquage moto</h4>
                         <p>Nous dépanneurs-remorqueurs sont aptes à intervenir sur tout type de moto, scooter cyclomoteurs.
-                        transporter sur un plateau adapté au deux roues vers un garagiste du choix du client.</p>
+                        Transporter sur un plateau adapté au deux roues vers un garagiste choisi par me client.</p>
                     </article>
                 </div>
             </div>
         </section>
         <!-- NOS PRESTATIONS FIN -->
+
+        <section id="partenaires_mobile">
+            <div class="container_partenaire">
+                <figure>
+                    <img class="img_presta_mob" src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="prestation">
+                </figure>
+                <article class="article-presta">
+                    <h4>Dépannage sur place</h4>
+                    <p>Nos dépanneurs-remorqueurs sont aptes à intervenir en sous-sol, en étage, en pleine rue et en fourrière.
+                    dans des actions types: coup de batterie et roue crevée.</p>
+                </article>
+            </div>
+            <div class="container_partenaire">
+                <figure>
+                    <img class="img_presta_mob" src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="prestation">
+                </figure>
+                <article class="article-presta">
+                    <h4>Remorquage auto</h4>
+                    <p>Nous remorquons tout type de voitures, des véhicules léger, des utilitaires avec ou sans clés.
+                    pour tout type de vehicules (20m3, petit engins de chantier, carvanes ...).</p>
+                </article>
+            </div>
+            <div class="container_partenaire">
+                <figure>
+                    <img class="img_presta_mob" src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="prestation">
+                </figure>
+                <article class="article-presta">
+                    <h4>Remorquage moto</h4>
+                    <p>Nous dépanneurs-remorqueurs sont aptes à intervenir sur tout type de moto, scooter cyclomoteurs.
+                    Transporter sur un plateau adapté au deux roues vers un garagiste choisi par me client.</p>
+                </article>
+            </div>
+
+        </section>
 
         <!-- NOS PARTENAIRES -->
         <section>
