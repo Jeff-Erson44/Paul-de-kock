@@ -312,7 +312,7 @@ if (!empty($_POST)) {
                 <article class="article-presta">
                     <h4>Remorquage moto</h4>
                     <p>Nous dépanneurs-remorqueurs sont aptes à intervenir sur tout type de moto, scooter cyclomoteurs.
-                    Transporter sur un plateau adapté au deux roues vers un garagiste choisi par e client.</p>
+                    Transporter sur un plateau adapté au deux roues vers un garagiste choisi par le client.</p>
                 </article>
             </div>
 
