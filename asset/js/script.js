@@ -1,7 +1,7 @@
 
 
 console.group('Profile');
-
+ // leaflet Map 
 function init() {
 
     const parcThabor = {
@@ -20,6 +20,7 @@ function init() {
     });
 
     mainLayer.addTo(map);
+     // Icon Map
 
     var PaulIcon = L.icon({
         iconUrl: 'asset/img/favicon_marker2-01.png',
@@ -31,6 +32,8 @@ function init() {
     L.marker([48.89141, 2.43780], {icon: PaulIcon}).addTo(map);
 
 }
+     // Compteur Map 
+
 
 const counters = document.querySelectorAll('.counter');
 
@@ -42,9 +45,6 @@ counters.forEach(counter => {
 	const updateCounter = () => {
 		const target = +counter.getAttribute('data-target');
 		const c = +counter.innerText;
-		
-
-	
 		
 		if( c < target) {
 			counter.innerText = c +1;
