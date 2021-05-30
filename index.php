@@ -333,43 +333,43 @@ if (!empty($_POST)) {
                 <div class="container-effet">
                     <div class="container-partenaires">
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_renault.png" href
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_renault.png" href
                             ="https://www.renault.fr/">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_bmw.png" href
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_bmw.png" href
                             ="https://www.bmw.fr/fr/accueil.html">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_citroen.png" href
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_citroen.png" href
                             ="https://www.citroen.fr/">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_peugeot.png" href
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_peugeot.png" href
                             ="https://www.peugeot.fr/">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_reservoir_auto.png" href
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_reservoir_auto.png" href
                             ="http://www.reservoirauto.fr/">
                         </figure>                       
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_renault.png" href
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_renault.png" href
                             ="https://www.renault.fr/">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_bmw.png" href
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_bmw.png" href
                             ="https://www.bmw.fr/fr/accueil.html">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_citroen.png" href
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_citroen.png" href
                             ="https://www.citroen.fr/">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_peugeot.png" href
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_peugeot.png" href
                             ="https://www.peugeot.fr/">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_reservoir_auto.png" href
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_reservoir_auto.png" href
                             ="http://www.reservoirauto.fr/">
                         </figure>                       
                     </div>         
