@@ -582,6 +582,9 @@ a.text-white {
   .banniere2{
     display: flex;
   }
+  .logo {
+    font-size: 1rem;
+  }
 
 
 /******** ACCUEIL *********/ 
@@ -605,7 +608,7 @@ a.text-white {
 
   #quisommesnous_mobile{
     display: block;
-    margin-top: 420px;    
+    margin-top: 290px;    
   }
   .img-about {
     width: 60%;
@@ -722,68 +725,6 @@ a.text-white {
   }
 }
 
-
-
-@media screen and (max-width: 767px) {
-   menu burger 
-  .nav-ul {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-  }
-  .navOpen nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .fa-bars, .fa-times{
-    font-size: 3rem;
-  }
-  .hamburger{
-    display: block;
-  }
-  #close{
-    display: none;
-  }
-  .logo{
-    font-size: 3rem;
-  }
-}
-@media (max-width: 3700px) {
-  .nav-ul li {
-    font-size: 1.2rem;
-    color: red;
-  }
-}
-@media (max-width: 1700px) {
-  .nav-ul li {
-    font-size: 2rem;
-  }
-}
-@media (max-width: 1118px) {
-  .logo {
-    font-size: 3rem;
-  }
-  .nav-ul {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  .nav-ul li {
-    font-size: 1.2rem;
-  }
-}
-@media (max-width: 944px) {
-  .menu_desktop {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  .logo {
-    font-size: 3rem;
-  }
-  .nav-ul {
-    font-size: 1.4rem;
-  }
-}
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
   button {

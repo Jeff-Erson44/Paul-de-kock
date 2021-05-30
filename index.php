@@ -172,7 +172,7 @@ if (!empty($_POST)) {
         <div id="accueil">
             <figure class="diapo">
                 <img class="banniere" src="asset/img/IMG_3552.webp" alt="image d'accueil voiture">
-                <img class="banniere2" src="asset/img/203-mobile.jpg" alt=" image d'accueil voiture au format mobile">
+                <img class="banniere2" src="asset/img/IMG_35599.webp" alt=" image d'accueil voiture au format mobile">
             </figure>
         </div>
 
