@@ -333,44 +333,34 @@ if (!empty($_POST)) {
                 <div class="container-effet">
                     <div class="container-partenaires">
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_renault.png" href
-                            ="https://www.renault.fr/">
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_renault.png" >
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_bmw.png" href
-                            ="https://www.bmw.fr/fr/accueil.html">
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_bmw.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_citroen.png" href
-                            ="https://www.citroen.fr/">
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_citroen.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_peugeot.png" href
-                            ="https://www.peugeot.fr/">
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_peugeot.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_reservoir_auto.png" href
-                            ="http://www.reservoirauto.fr/">
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_reservoir_auto.png">
                         </figure>                       
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_renault.png" href
-                            ="https://www.renault.fr/">
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_renault.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_bmw.png" href
-                            ="https://www.bmw.fr/fr/accueil.html">
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_bmw.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_citroen.png" href
-                            ="https://www.citroen.fr/">
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_citroen.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_peugeot.png" href
-                            ="https://www.peugeot.fr/">
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_peugeot.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_reservoir_auto.png" href
-                            ="http://www.reservoirauto.fr/">
+                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_reservoir_auto.png">
                         </figure>                       
                     </div>         
                 </div>
