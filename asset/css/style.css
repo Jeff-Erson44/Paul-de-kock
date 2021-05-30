@@ -69,7 +69,7 @@ body {
 a {
   text-decoration: none;
 }
-.logo_partenaires{
+.logo_partenaires {
   cursor: none;
 }
 /*********  NAV  ***********/
@@ -93,7 +93,7 @@ nav.sticky {
   background: var(--black);
 }
 .logo {
-  font-family: "BrushScriptStd";
+  font-family: 'BrushScriptStd';
   position: relative;
   color: var(--white);
   text-decoration: none;
@@ -111,9 +111,6 @@ nav ul li a {
   position: relative;
   margin: 0 25px;
   font-family: 'NexaBold';
-}
-nav ul li:last-child {
-  margin-right: 120px;
 }
 header::before {
   content: '';
@@ -236,7 +233,7 @@ button {
   cursor: pointer;
 }
 /******** QUI SOMMES NOUS ********/
-#quisommesnous_mobile{
+#quisommesnous_mobile {
   display: none;
 }
 
@@ -336,7 +333,7 @@ i.fas.fa-building {
   flex-wrap: wrap;
   margin-bottom: -6%;
 }
-#prestations_mobile{
+#prestations_mobile {
   display: none;
 }
 .image-presta {
@@ -407,7 +404,7 @@ i.fas.fa-building {
 }
 
 /******** NOS PARTENAIRES *********/
-#partenaires_mobile{
+#partenaires_mobile {
   display: none;
 }
 .logo_partenaires {
@@ -556,130 +553,130 @@ a.text-white {
   color: white;
 }
 
-
-
-@media only screen and  (min-width:320px) and (max-width: 425px){
-
-/******** INITIALISATION *********/
-  #prestations, #quisommesnous{
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  /******** INITIALISATION *********/
+  #prestations,
+  #quisommesnous {
     display: none;
   }
-  h2.title{
+  h2.title {
     font-size: 1.8rem;
   }
+  /*
   nav.sticky{
     display: none;
   }
   .menu_desktop{
     display: none;
   }
-  header::before{
+  */
+  header::before {
     width: 60%;
   }
-  .banniere{
+  .banniere {
     display: none;
   }
-  .banniere2{
+  .banniere2 {
     display: flex;
   }
   .logo {
     font-size: 1rem;
   }
 
+  /******** ACCUEIL *********/
 
-/******** ACCUEIL *********/ 
+  #accueil {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .banniere2 {
+    margin-top: 130px;
+  }
+  .bouton {
+    width: 80%;
+  }
+  .containeur-accueil h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
 
-#accueil{
-  display: flex;
-  justify-content: flex-end;
-}
-.banniere2{
-  margin-top: 130px;
-}
-.bouton{
-  width: 80%;
-}
-.containeur-accueil h1 {
-  font-size: 20px;
-  line-height: 25px;
-}
-  
-/******** QUI SOMMES NOUS MOBILE *********/   
+  /******** QUI SOMMES NOUS MOBILE *********/
 
-  #quisommesnous_mobile{
+  #quisommesnous_mobile {
     display: block;
-    margin-top: 290px;    
+    margin-top: 290px;
   }
   .img-about {
     width: 60%;
-    margin-left:19% ;
+    margin-left: 19%;
   }
-  .texte{
+  .texte {
     margin-top: 75px;
     margin-bottom: 20px;
     padding: 0 10%;
   }
-  .button-about{
+  .button-about {
     margin-bottom: -80px;
   }
 
-/******** PRESTATIONS*********/ 
+  /******** PRESTATIONS*********/
 
-  #prestations_mobile{
+  #prestations_mobile {
     display: block;
   }
-  .article-presta{
+  .article-presta {
     width: 100%;
     color: var(--white);
   }
-  .container_prestations{
+  .container_prestations {
     width: 100%;
     padding: 2% 5%;
   }
-  .img_presta_mob{
+  .img_presta_mob {
     width: 100%;
   }
-  .article-presta h4{
+  .article-presta h4 {
     font-size: 1.75rem;
   }
-  .article-presta{
+  .article-presta {
     padding: 25px;
     margin-top: -5px;
   }
-  .presta1{
-    background: #E0E0E0;
+  .presta1 {
+    background: #e0e0e0;
     color: #000000;
   }
-  .presta2{
+  .presta2 {
     background: var(--primary);
   }
-  .presta3{
+  .presta3 {
     background: var(--black);
   }
 
-/******** BANNER *********/ 
+  /******** BANNER *********/
 
-  .bandeau{
+  .bandeau {
     height: fit-content;
   }
-  .fa, .fas { 
+  .fa,
+  .fas {
     font-size: 2rem;
   }
-  .counter{
+  .counter {
     font-size: 1.5rem;
     margin: 10px 0;
   }
-  .text-counter{
+  .text-counter {
     margin-top: 10px;
   }
   li.li-bandeau {
     margin-top: 5%;
-}
-.logo_partenaires{
-  width: 80px;
-}
-/******** CONTACT *********/   
-  .container-contact{
+  }
+  .logo_partenaires {
+    width: 80px;
+  }
+  /******** CONTACT *********/
+  .container-contact {
     display: block;
     height: fit-content;
     top: 0;
@@ -687,51 +684,50 @@ a.text-white {
     width: 100%;
     padding: 5%;
   }
-  .infos{
+  .infos {
     width: 100%;
   }
-  .formulaire{
+  .formulaire {
     height: 600px;
     width: 100%;
   }
   .nomPrenom {
     display: block;
   }
-  #nom, #prenom {
+  #nom,
+  #prenom {
     width: 100%;
   }
-  button{
+  button {
     margin: 20px 60px;
   }
   small {
     margin-top: 85px;
-}
-
-
-/******** BANDEAU *********/ 
-  .ul-bandeau {
-    padding: 0; 
   }
-/******** FOOTER *********/ 
-  #mapid{
+
+  /******** BANDEAU *********/
+  .ul-bandeau {
+    padding: 0;
+  }
+  /******** FOOTER *********/
+  #mapid {
     height: 280px;
   }
-/******** FOOTER *********/ 
-  footer{
+  /******** FOOTER *********/
+  footer {
     padding: 0 5%;
   }
-  footer p{
+  footer p {
     font-size: 0.5rem;
   }
 }
-
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
   button {
     margin: 0;
   }
   .article-presta h4 {
-    font-size: 1.3rem;  
+    font-size: 1.3rem;
   }
   .infos p {
     text-align: center;
@@ -739,8 +735,8 @@ a.text-white {
   .ul-bandeau {
     padding: 0;
     margin-top: 20px;
- }
- .button-about {
+  }
+  .button-about {
     margin-left: 35px;
   }
   .bouton {
@@ -748,17 +744,36 @@ a.text-white {
   }
 }
 
+@media (max-width: 375px) {
+  .logo {
+    font-size: 1.2rem;
+    margin-right: 0;
+  }
+}
 
-
-@media (max-width: 860px) {
+/******** MENU burger *******/
+@media (max-width: 425px) {
+  .menu_desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo {
+    font-size: 1.5rem;
+    margin-right: 5.625rem;
+  }
   label #btn {
     display: block;
+  }
+  .nav-ul li {
+    color: var(--white);
+    font-size: 20px !important;
   }
   .nav-ul {
     position: fixed;
     width: 100%;
     height: 100%;
-    top: 160px;
+    top: 80px;
     background: var(--primary);
     left: -100%;
     text-align: center;
@@ -770,10 +785,12 @@ a.text-white {
   .nav-ul li {
     font-size: 40px;
     margin: 30px 0;
+    color: var(--white);
   }
   nav {
     padding: 5px 100px;
     background: var(--black);
+    color: var(--white);
   }
   #check:checked ~ .nav-ul {
     left: 0;
