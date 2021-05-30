@@ -97,6 +97,8 @@ if (!empty($_POST)) {
     <meta name="robots" content="all"> 
     <title>R Paul de Kock</title>
     <!-- Font Awesome -->
+    <!doctype html>
+    <link rel="canonical" href="https://pauldekock.fr"/>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!-- Authenticité de la page -->
     <link rel="canonical" href="https://Paul-de-kock.fr" />

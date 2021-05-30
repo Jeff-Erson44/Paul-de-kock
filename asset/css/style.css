@@ -558,7 +558,7 @@ a.text-white {
 
 
 
-@media only screen and (max-width: 375px){
+@media only screen and  (min-width:320px) and (max-width: 425px){
 
 /******** INITIALISATION *********/
   #prestations, #quisommesnous{
@@ -609,7 +609,7 @@ a.text-white {
   }
   .img-about {
     width: 60%;
-    margin-left:16% ;
+    margin-left:19% ;
   }
   .texte{
     margin-top: 75px;
@@ -784,6 +784,12 @@ a.text-white {
     font-size: 1.4rem;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  button {
+    margin: 0;
+  }
+}
 @media (max-width: 860px) {
   label #btn {
     display: block;
@@ -818,4 +824,6 @@ a.text-white {
   #check:checked ~ label #cancel {
     display: block;
   }
+
+
 }
