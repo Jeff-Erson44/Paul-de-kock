@@ -144,22 +144,21 @@ if (!empty($_POST)) {
 
 </head>
 <body onload="init()">
-    <header>
+<header>
         <nav class="menu_desktop">
             <a href="index.php" class="logo">Paul de Kock</a>
-           <!-- <button class="hamburger" id="hamburger">
-            <i class="fas fa-bars"></i>
-            </button>-->
-            <button id="close">
-                <i class="fas fa-times"></i>
-            </button>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
             <ul class="nav-ul" id="nav-ul">
                 <li><a href="#quisommesnous" class="active">Qui sommes-nous</a></li>
                 <li><a href="#prestations">Nos prestations</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-
+        <section class="section"></section>
     </header>
 
 <!---------->
@@ -170,7 +169,7 @@ if (!empty($_POST)) {
         <!-- ACCUEIL -->
         <div id="accueil">
             <figure class="diapo">
-                <img class="banniere" src="asset/img/203.jpg" alt="image d'accueil voiture">
+                <img class="banniere" src="asset/img/IMG_3552.webp" alt="image d'accueil voiture">
                 <img class="banniere2" src="asset/img/203-mobile.jpg" alt=" image d'accueil voiture au format mobile">
             </figure>
         </div>
@@ -261,7 +260,7 @@ if (!empty($_POST)) {
             <div class="container-presta">
                 <!--.box-presta*3>img+article-->
                 <div class="box-presta">
-                    <img src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="Illustration dépannage sur place">
+                    <img src="asset/img/IMG_3554.webp" data-lightbox="mygallery" alt="Illustration dépannage sur place">
                     <article class="article-presta">
                         <h4>Dépannage sur place</h4>
                         <p>Nos dépanneurs-remorqueurs sont aptes à intervenir en sous-sol, en étage, en pleine rue et en fourrière.
@@ -274,10 +273,10 @@ if (!empty($_POST)) {
                         <p> Nous remorquons tout type de voitures, des véhicules léger, des utilitaires avec ou sans clés.
                         pour tout type de vehicules (20m3, petit engins de chantier, carvanes ...)</p>
                     </article>
-                    <img class="image-presta" src="asset/img/presta2.jpg" data-lightbox="mygallery" alt="Illustration remorquage auto">
+                    <img class="image-presta" src="asset/img/IMG_3568.webp" data-lightbox="mygallery" alt="Illustration remorquage auto">
                 </div>
                 <div class="box-presta">
-                    <img class="image-presta" src="asset/img/presta3.jpg" data-lightbox="mygallery" alt="Illustration remorquage moto">
+                    <img class="image-presta" src="asset/img/IMG_3552.webp" data-lightbox="mygallery" alt="Illustration remorquage moto">
                     <article class="article-presta trois">
                         <h4>Remorquage moto</h4>
                         <p>Nous dépanneurs-remorqueurs sont aptes à intervenir sur tout type de moto, scooter cyclomoteurs.
@@ -296,7 +295,7 @@ if (!empty($_POST)) {
         
         <div class="container_prestations">
                 <figure>
-                    <img class="img_presta_mob" src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="Illustration dépannage sur place">
+                    <img class="img_presta_mob" src="asset/img/IMG_3554.webp" data-lightbox="mygallery" alt="Illustration dépannage sur place">
                 </figure>
                 <article class="article-presta presta1">
                     <h4>Dépannage sur place</h4>
@@ -306,7 +305,7 @@ if (!empty($_POST)) {
             </div>
             <div class="container_prestations">
                 <figure>
-                    <img class="img_presta_mob" src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="Illustration remorquage auto">
+                    <img class="img_presta_mob" src="asset/img/IMG_3568.webp" data-lightbox="mygallery" alt="Illustration remorquage auto">
                 </figure>
                 <article class="article-presta presta2">
                     <h4>Remorquage auto</h4>
@@ -315,7 +314,7 @@ if (!empty($_POST)) {
             </div>
             <div class="container_prestations">
                 <figure>
-                    <img class="img_presta_mob" src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="Illustration remorquage moto">
+                    <img class="img_presta_mob" src="asset/img/IMG_3552.webp" data-lightbox="mygallery" alt="Illustration remorquage moto">
                 </figure>
                 <article class="article-presta presta3">
                     <h4>Remorquage moto</h4>
