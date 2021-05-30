@@ -170,8 +170,8 @@ if (!empty($_POST)) {
         <!-- ACCUEIL -->
         <div id="accueil">
             <figure class="diapo">
-                <img class="banniere" src="asset/img/203.jpg" alt=" image diapo">
-                <img class="banniere2" src="asset/img/203-mobile.jpg" alt=" image diapo responsive">
+                <img class="banniere" src="asset/img/203.jpg" alt="image d'accueil voiture">
+                <img class="banniere2" src="asset/img/203-mobile.jpg" alt=" image d'accueil voiture au format mobile">
             </figure>
         </div>
 
@@ -191,7 +191,7 @@ if (!empty($_POST)) {
             <div class="container-about">
                 <div class="image-about">
                     <figure>
-                        <img class="img-about" src="asset/img/paulfake.jpg" alt="">
+                        <img class="img-about" src="asset/img/paulfake.jpg" alt="image d'illustration pour la présentation de l'entreprise">
                     </figure>
                 </div>
                 <div class="texte-about">
@@ -210,7 +210,7 @@ if (!empty($_POST)) {
         <section id="quisommesnous_mobile">
             <h2 class="title title-about">Qui sommes-nous</h2>
             <figure>
-                <img class="img-about" src="asset/img/paulfake.jpg" alt="">
+                <img class="img-about" src="asset/img/paulfake.jpg" alt="image d'illustration pour la présentation de l'entreprise">
             </figure>
             
             <p class="texte">R PAUL DE KOCK SARL créée en 2000 .Nous sommes des dépanneurs professionnels expérimentés. Nous opérons
@@ -230,15 +230,15 @@ if (!empty($_POST)) {
             <ul class="ul-bandeau">
                 <li class="li-bandeau">
                     <i class="fas fa-building"></i>
-                    <div class="text-counter">Nous existons depuis <div>
+                    <div class="text-counter">Nous existons depuis </div>
                     <div class="counter" data-target="21"></div>
-                    <div class="text-counter"> Ans <div>
+                    <div class="text-counter"> Ans </div>
                 </li>
                 <li class="li-bandeau">
                     <i class="fas fa-hands-helping"></i>
-                    <div class="text-counter">Nous existons depuis <div>
+                    <div class="text-counter">Nous existons depuis </div>
                     <div class="counter" data-target="21"></div>
-                    <div class="text-counter"> Ans <div>
+                    <div class="text-counter"> Ans </div>
                 </li> 
                 <li class="li-bandeau">
                     <i class="fas fa-star"></i>
@@ -254,14 +254,14 @@ if (!empty($_POST)) {
         <section id="prestations">
             <div class="image-presta">
                 <figure>
-                    <img class="img-presta" src="asset/img/presta-bg.jpg" alt="nos prestations">
+                    <img class="img-presta" src="asset/img/presta-bg.jpg" alt="Titre de la section nos prestations">
                 </figure>
                 <h2 class="title title-presta">Nos prestations</h2>
             </div>
             <div class="container-presta">
                 <!--.box-presta*3>img+article-->
                 <div class="box-presta">
-                    <img src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="prestation">
+                    <img src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="Illustration dépannage sur place">
                     <article class="article-presta">
                         <h4>Dépannage sur place</h4>
                         <p>Nos dépanneurs-remorqueurs sont aptes à intervenir en sous-sol, en étage, en pleine rue et en fourrière.
@@ -274,10 +274,10 @@ if (!empty($_POST)) {
                         <p> Nous remorquons tout type de voitures, des véhicules léger, des utilitaires avec ou sans clés.
                         pour tout type de vehicules (20m3, petit engins de chantier, carvanes ...)</p>
                     </article>
-                    <img class="image-presta" src="asset/img/presta2.jpg" data-lightbox="mygallery" alt="prestation">
+                    <img class="image-presta" src="asset/img/presta2.jpg" data-lightbox="mygallery" alt="Illustration remorquage auto">
                 </div>
                 <div class="box-presta">
-                    <img class="image-presta" src="asset/img/presta3.jpg" data-lightbox="mygallery" alt="prestation">
+                    <img class="image-presta" src="asset/img/presta3.jpg" data-lightbox="mygallery" alt="Illustration remorquage moto">
                     <article class="article-presta trois">
                         <h4>Remorquage moto</h4>
                         <p>Nous dépanneurs-remorqueurs sont aptes à intervenir sur tout type de moto, scooter cyclomoteurs.
@@ -296,7 +296,7 @@ if (!empty($_POST)) {
         
         <div class="container_prestations">
                 <figure>
-                    <img class="img_presta_mob" src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="prestation">
+                    <img class="img_presta_mob" src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="Illustration dépannage sur place">
                 </figure>
                 <article class="article-presta presta1">
                     <h4>Dépannage sur place</h4>
@@ -306,7 +306,7 @@ if (!empty($_POST)) {
             </div>
             <div class="container_prestations">
                 <figure>
-                    <img class="img_presta_mob" src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="prestation">
+                    <img class="img_presta_mob" src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="Illustration remorquage auto">
                 </figure>
                 <article class="article-presta presta2">
                     <h4>Remorquage auto</h4>
@@ -315,7 +315,7 @@ if (!empty($_POST)) {
             </div>
             <div class="container_prestations">
                 <figure>
-                    <img class="img_presta_mob" src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="prestation">
+                    <img class="img_presta_mob" src="asset/img/presta1.jpg" data-lightbox="mygallery" alt="Illustration remorquage moto">
                 </figure>
                 <article class="article-presta presta3">
                     <h4>Remorquage moto</h4>
@@ -333,34 +333,44 @@ if (!empty($_POST)) {
                 <div class="container-effet">
                     <div class="container-partenaires">
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_renault.png">
+                            <img class="logo_partenaires" src="asset/img/logo_renault.png" href
+                            ="https://www.renault.fr/">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_bmw.png">
+                            <img class="logo_partenaires" src="asset/img/logo_bmw.png" href
+                            ="https://www.bmw.fr/fr/accueil.html">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_citroen.png">
+                            <img class="logo_partenaires" src="asset/img/logo_citroen.png" href
+                            ="https://www.citroen.fr/">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_peugeot.png">
+                            <img class="logo_partenaires" src="asset/img/logo_peugeot.png" href
+                            ="https://www.peugeot.fr/">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_reservoir_auto.png">
+                            <img class="logo_partenaires" src="asset/img/logo_reservoir_auto.png" href
+                            ="http://www.reservoirauto.fr/">
                         </figure>                       
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_renault.png">
+                            <img class="logo_partenaires" src="asset/img/logo_renault.png" href
+                            ="https://www.renault.fr/">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_bmw.png">
+                            <img class="logo_partenaires" src="asset/img/logo_bmw.png" href
+                            ="https://www.bmw.fr/fr/accueil.html">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_citroen.png">
+                            <img class="logo_partenaires" src="asset/img/logo_citroen.png" href
+                            ="https://www.citroen.fr/">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_peugeot.png">
+                            <img class="logo_partenaires" src="asset/img/logo_peugeot.png" href
+                            ="https://www.peugeot.fr/">
                         </figure>
                         <figure>
-                            <img class="logo_partenaires" src="asset/img/logo_reservoir_auto.png">
+                            <img class="logo_partenaires" src="asset/img/logo_reservoir_auto.png" href
+                            ="http://www.reservoirauto.fr/">
                         </figure>                       
                     </div>         
                 </div>

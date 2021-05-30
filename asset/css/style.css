@@ -69,6 +69,9 @@ body {
 a {
   text-decoration: none;
 }
+.logo_partenaires{
+  cursor: none;
+}
 /*********  NAV  ***********/
 
 nav {
@@ -238,6 +241,7 @@ button {
 
 #quisommesnous {
   background: none;
+  margin-top: 9%;
 }
 .title-about::before {
   position: absolute;
@@ -329,6 +333,10 @@ i.fas.fa-building {
 #prestations {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -6%;
+}
+#prestations_mobile{
+  display: none;
 }
 .image-presta {
   position: relative;
