@@ -65,7 +65,7 @@ if (!empty($_POST)) {
         $headers[] = "Content-Type: text/html; charset=UTF-8";
         $headers[] = 'From: '. $_POST['prenom'] .' '. $_POST['nom'] . '<' . $_POST['email'] . '>';
 
-        $mail = 'elisab.ngo@gmail.com';
+        $mail = 'pauldekock@free.fr';
         $sujet = '[' .$_POST['prenom']. ' ' .$_POST['nom']. ']';
         $message ='<p>De '.$_POST['nom'].' '.$_POST['prenom'].'<p>'.'</p>'.'<hr>'.'<p>Message : '.$_POST['message'] .'</p>'.'<br>';
         // str_replace(ce que je veux remplacer, par quoi, dans quelle chaine)
