@@ -567,53 +567,83 @@ a.text-white {
   header::before{
     width: 60%;
   }
+  .banniere{
+    display: none;
+  }
+  .banniere2{
+    display: flex;
+  }
 
 
+/******** ACCUEIL *********/ 
+
+#accueil{
+  display: flex;
+  justify-content: flex-end;
+}
+.banniere2{
+  margin-top: 130px;
+}
+.bouton{
+  width: 80%;
+}
+.containeur-accueil h1 {
+  font-size: 20px;
+  line-height: 25px;
+}
+  
 /******** QUI SOMMES NOUS MOBILE *********/   
 
   #quisommesnous_mobile{
     display: block;
+    margin-top: 420px;    
   }
-
   .img-about {
     width: 60%;
+    margin-left:16% ;
+  }
+  .texte{
+    margin-top: 75px;
+    margin-bottom: 20px;
+    padding: 0 10%;
+  }
+  .button-about{
+    margin-bottom: -80px;
   }
 
-/******** PARTENAIRES *********/ 
+/******** PRESTATIONS*********/ 
 
-  #partenaires_mobile{
+  #prestations_mobile{
     display: block;
   }
   .article-presta{
     width: 100%;
     color: var(--white);
   }
-  .container_partenaire{
+  .container_prestations{
     width: 100%;
     padding: 2% 5%;
   }
   .img_presta_mob{
     width: 100%;
   }
-  .article-presta{
-    padding: 2% 5%;
-  }
   .article-presta h4{
     font-size: 1.75rem;
   }
-  .article-presta:nth-child(1){
-    background: var(--white);
+  .article-presta{
+    padding: 25px;
+    margin-top: -5px;
   }
-  .article-presta:nth-child(2){
+  .presta1{
+    background: #E0E0E0;
+    color: #000000;
+  }
+  .presta2{
     background: var(--primary);
   }
-  .article-presta:nth-child(3){
+  .presta3{
     background: var(--black);
   }
-
-
-
-
 
 /******** BANNER *********/ 
 
@@ -633,8 +663,6 @@ a.text-white {
   li.li-bandeau {
     margin-top: 5%;
 }
-
-
 .logo_partenaires{
   width: 80px;
 }
