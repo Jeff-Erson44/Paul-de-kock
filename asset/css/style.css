@@ -730,7 +730,26 @@ a.text-white {
   button {
     margin: 0;
   }
+  .article-presta h4 {
+    font-size: 1.3rem;  
+  }
+  .infos p {
+    text-align: center;
+  }
+  .ul-bandeau {
+    padding: 0;
+    margin-top: 20px;
+ }
+ .button-about {
+    margin-left: 35px;
+  }
+  .bouton {
+    display: none;
+  }
 }
+
+
+
 @media (max-width: 860px) {
   label #btn {
     display: block;
@@ -765,6 +784,4 @@ a.text-white {
   #check:checked ~ label #cancel {
     display: block;
   }
-
-
 }
