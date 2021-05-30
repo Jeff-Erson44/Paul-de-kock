@@ -333,34 +333,34 @@ if (!empty($_POST)) {
                 <div class="container-effet">
                     <div class="container-partenaires">
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_renault.png" >
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_renault.png" >
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_bmw.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_bmw.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_citroen.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_citroen.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_peugeot.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_peugeot.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_reservoir_auto.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_reservoir_auto.png">
                         </figure>                       
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_renault.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_renault.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_bmw.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_bmw.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_citroen.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_citroen.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_peugeot.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_peugeot.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise"class="logo_partenaires" src="asset/img/logo_reservoir_auto.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_reservoir_auto.png">
                         </figure>                       
                     </div>         
                 </div>
