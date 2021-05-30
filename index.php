@@ -429,7 +429,7 @@ if (!empty($_POST)) {
  
  <!-- LIGHTBOX SCRIPT -->
 <script src="asset/js/script.js"></script>
-<script src="asset/js/lightbox-plus-jquery.min.js" charset="utf-8"></script>
+<script src="asset/js/lightbox-plus-jquery.min.js"></script>
 </body>
 <script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script><script> window.start.init({Palette:"palette6",Mode:"floating right",Theme:"classic",Message:" R Paul de Kock utilise des cookies, en poursuivant votre navigation, vous acceptez leur utilisations.",ButtonText:"Accepter",LinkText:"Voir plus",Time:"10",})</script>
 
