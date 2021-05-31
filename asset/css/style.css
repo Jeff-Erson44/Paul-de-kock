@@ -566,6 +566,11 @@ textarea#message {
   outline: none;
   background: transparent;
 }
+.user-box input:focus,
+.user-box textarea:focus {
+  border-bottom: 2px solid var(--neon);
+  transition: all 0.5s;
+}
 .user-box label {
   position: absolute;
   top: 0;

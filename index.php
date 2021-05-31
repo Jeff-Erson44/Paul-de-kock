@@ -383,22 +383,22 @@ if (!empty($_POST)) {
                         <h2 class="title title-contact">Contact</h2>
                         <div class="nomPrenom">
                             <div class="user-box user-nom">
-                                <input type="text" class="input-contact" id="nom" name="nom" placeholder="Votre nom"> 
+                                <input type="text" class="input-contact" id="nom" name="nom"> 
                                 <label>Nom</label>
                             </div>
                             <div class="user-box user-prenom">
-                                <input type="text" class="input-contact" id="prenom" name="prenom" placeholder="Votre prénom">
+                                <input type="text" class="input-contact" id="prenom" name="prenom">
                                 <label>Prénom</label>
                             </div>
                         </div>
 
                         <div class="user-box user-email">
-                            <input type="email" class="input-contact" id="email" name="email" placeholder="Votre adresse email">
+                            <input type="email" class="input-contact" id="email" name="email">
                             <label>Email</label>
                         </div>
 
                         <div class="user-box user-message">
-                            <textarea name="message" id="message" class="input-contact" placeholder="Dites-nous en plus"></textarea>
+                            <textarea name="message" id="message" class="input-contact"></textarea>
                             <label for="message">Message</label>
                         </div>
 
