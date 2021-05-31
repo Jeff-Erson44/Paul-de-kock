@@ -263,6 +263,10 @@ button {
   border-radius: 100px;
   border: none;
 }
+.bouton{
+  color: var(--primary);
+  background: var(--white);
+}
 /******** QUI SOMMES NOUS ********/
 #quisommesnous_mobile {
   display: none;
@@ -466,7 +470,7 @@ i.fas.fa-building {
   content: '';
   width: 6%;
   height: 3px;
-  bottom: -319%;
+  bottom: -318%;
   right: 68%;
   background-color: var(--neon);
 }
@@ -667,7 +671,9 @@ a.text-white {
     display: flex;
   }
   .logo {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    margin-right: 3rem;
+    width: 70%;
   }
 
   /******** ACCUEIL *********/
@@ -680,12 +686,16 @@ a.text-white {
     margin-top: 130px;
   }
   .button-home {
-    background: var(--white) !important;
+    background: var(--white)!important;
     color: var(--primary);
   }
   .containeur-accueil h1 {
     font-size: 20px;
     line-height: 25px;
+  }
+  .containeur-accueil{
+    top: calc(55% - -5.5%);
+    left: 11%;
   }
 
   /******** QUI SOMMES NOUS MOBILE *********/
@@ -696,13 +706,38 @@ a.text-white {
   }
   .img-about {
     width: 60%;
-    margin-left: 19%;
+    margin-left: 17%;
   }
   .texte {
     margin-top: 75px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     padding: 0 10%;
   }
+<<<<<<< HEAD
+=======
+  .button-about {
+    margin-left: 50px;
+  }
+  .title-about::before {
+    width: 16%;
+    height: 3px;
+    bottom: -12%;
+    left: 59%;
+}
+
+
+
+  /******** PARTENAIRES*********/
+
+  .title-partenaires::before {
+      width: 13%;
+      height: 3px;
+      bottom: -355.5%;
+      right: 31%;
+  }
+
+
+>>>>>>> 497c3ecb15e4b8a912f688d5af9557c52b7b77b4
 
   /******** PRESTATIONS*********/
 
@@ -737,6 +772,19 @@ a.text-white {
   .presta3 {
     background: var(--black);
   }
+  .title-presta{ 
+      font-size: 1.8rem;
+      position: relative;
+      color: black;
+  }
+  .title-presta::before{
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 3px;
+    left: 50%;
+  }
+
 
   /******** BANNER *********/
 
@@ -756,6 +804,7 @@ a.text-white {
   }
   li.li-bandeau {
     margin-top: 5%;
+    width: 40%;
   }
   .logo_partenaires {
     width: 80px;
@@ -790,6 +839,16 @@ a.text-white {
     margin-top: 85px;
   }
 
+  .title-contact:before{
+    width: 13%;
+    height: 3px;
+    bottom: 62%;
+    right: 35%;
+  }
+  .user-prenom {
+    margin-right: 0; 
+}
+  
   /******** BANDEAU *********/
   .ul-bandeau {
     padding: 0;
@@ -821,20 +880,34 @@ a.text-white {
     padding: 0;
     margin-top: 20px;
   }
-  .button-about {
-    margin-left: 35px;
-  }
   .bouton {
     display: none;
   }
-}
-
-@media (max-width: 375px) {
   .logo {
-    font-size: 1.2rem;
-    margin-right: 0;
+    font-size: 1rem;
+    margin-right: 3rem;
+    width: 79%;
+  }
+  .title-about::before {
+    width: 16%;
+    height: 3px;
+    bottom: -12%;
+    left: 70%;
+  }
+  a.button-about.primary{
+    padding: 20px 50px;
+    margin-left: 30px;
+  }
+  .title-presta::before {
+    left: 63%;
+  }
+  .title-partenaires::before {
+    bottom: -345.5%;
+    right: 21%;
   }
 }
+
+
 
 /******** MENU burger *******/
 @media (max-width: 375px) {
@@ -849,10 +922,6 @@ a.text-white {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  .logo {
-    font-size: 1.5rem;
-    margin-right: 5.625rem;
   }
   label #btn {
     display: block;
