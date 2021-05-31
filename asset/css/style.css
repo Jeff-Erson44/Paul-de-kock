@@ -713,31 +713,6 @@ a.text-white {
     margin-bottom: 70px;
     padding: 0 10%;
   }
-<<<<<<< HEAD
-=======
-  .button-about {
-    margin-left: 50px;
-  }
-  .title-about::before {
-    width: 16%;
-    height: 3px;
-    bottom: -12%;
-    left: 59%;
-}
-
-
-
-  /******** PARTENAIRES*********/
-
-  .title-partenaires::before {
-      width: 13%;
-      height: 3px;
-      bottom: -355.5%;
-      right: 31%;
-  }
-
-
->>>>>>> 497c3ecb15e4b8a912f688d5af9557c52b7b77b4
 
   /******** PRESTATIONS*********/
 
@@ -884,30 +859,52 @@ a.text-white {
     display: none;
   }
   .logo {
-    font-size: 1rem;
-    margin-right: 3rem;
-    width: 79%;
+    font-size: 1rem !important;
+    margin-right: 3rem !important;
+    width: 79% !important;
   }
   .title-about::before {
     width: 16%;
     height: 3px;
-    bottom: -12%;
-    left: 70%;
+    bottom: -12% !important;
+    left: 70% !important;
   }
   a.button-about.primary{
     padding: 20px 50px;
     margin-left: 30px;
   }
   .title-presta::before {
-    left: 63%;
+    left: 63% !important;
   }
   .title-partenaires::before {
     bottom: -345.5%;
-    right: 21%;
+    right: 21% !important;
+    width: 10% !important;
   }
 }
 
+@media screen and (min-width: 375px) and (max-width: 425px) {
 
+  a.button-about.primary{
+    margin-left: 55px;
+  }
+  .title-about::before {
+    left: 59% !important;
+  }
+  .title-presta::before {
+    left: 51% !important;
+  }
+  .title-partenaires::before {
+    bottom: -355.5%;
+    right: 31% !important;
+    width: 10% !important;
+  }
+
+
+
+
+
+}
 
 /******** MENU burger *******/
 @media (max-width: 375px) {
