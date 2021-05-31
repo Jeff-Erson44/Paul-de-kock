@@ -457,5 +457,15 @@ if (!empty($_POST)) {
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EN56CX7TVL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EN56CX7TVL');
+</script>
+
 
 </html>

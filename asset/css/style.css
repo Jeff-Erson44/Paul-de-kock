@@ -171,6 +171,7 @@ label #cancel {
   z-index: 1;
   margin-left: 26%;
   margin-top: 5.5%;
+  height: 755px;
 }
 .banniere2 {
   display: none;
