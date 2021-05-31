@@ -181,7 +181,7 @@ if (!empty($_POST)) {
             <h2>Interventions sur Paris et en Île-de-France</h2>
             <h1>Atelier de dépannage automobile</h1>
             <p>
-                <a class="bouton" href="#prestations">En savoir plus</a>
+                <a class="primary button-home" href="#prestations" type="button">En savoir plus</a>
             </p>
         </div>
         <!-- ACCUEIL FIN -->
@@ -202,7 +202,7 @@ if (!empty($_POST)) {
                     véhicule brulé, accidenté, épaves.
                     Nous avons pour objectif de répondre à vos besoins de remorquage avec un service de qualité et des experts qui vous garantirons un travail soigné.</p>
                     <p>
-                        <button type="button" class="button-about primary">contactez-nous</button>
+                        <a href="#contact" type="button" class="primary">contactez-nous</a>
                     </p>
                 </div>
             </div>
@@ -220,7 +220,7 @@ if (!empty($_POST)) {
             Nous avons pour objectif de répondre à vos besoins de remorquage avec un service de qualité et des experts qui vous garantirons un travail soigné.</p>
 
             <p>
-                <a class="button-about primary">contactez-nous</a>
+                <a href="#contact" class="primary">contactez-nous</a>
             </p>
         </section>
         <!-- QUI SOMMES NOUS FIN -->
