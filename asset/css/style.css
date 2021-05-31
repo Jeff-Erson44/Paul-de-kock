@@ -900,12 +900,31 @@ a.text-white {
     width: 10% !important;
   }
 
-
-
-
-
 }
 
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .banniere {
+    height: 670px;
+  }
+  .containeur-accueil h1::before {
+    bottom: 90px;
+  }
+  .title-about::before {
+    left: 35% !important;
+  }
+  .container-about {
+    width: 80%;
+  }
+  .image-about::before {
+    left: 13%;
+  }
+  .title-contact:before {
+    bottom: 78%;
+    right: 25%;
+  }
+
+}
 /******** MENU burger *******/
 @media (max-width: 375px) {
   .logo {
