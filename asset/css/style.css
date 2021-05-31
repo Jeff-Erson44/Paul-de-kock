@@ -33,6 +33,9 @@
 
   --danger: #f8d7da;
   --dangerFont: red;
+
+  --success: #d4edda;
+  --green: green;
 }
 /******** COOKIES POPUP *******/
 .window.floating.right {
@@ -85,7 +88,10 @@ a {
   padding: 20px;
   margin-top: 30px;
 }
-
+.alert-success {
+  background: var(--success);
+  color: var(--green);
+}
 /*********  NAV  ***********/
 
 nav {
@@ -526,12 +532,6 @@ textarea {
   right: 27%;
   background-color: var(--neon);
 }
-/*
-#nom,
-#prenom {
-  width: 80%;
-}
-*/
 .nomPrenom {
   display: flex;
   justify-content: space-between;
@@ -549,17 +549,6 @@ small {
 .title-contact {
   text-align: center;
 }
-/*
-input,
-textarea {
-  padding: 10px 0;
-  outline: none;
-  background: transparent;
-  margin-bottom: 30px;
-  border: none;
-  border-bottom: 2px solid var(--primary);
-}
-*/
 textarea#message {
   min-height: 50px;
   max-height: 132px;
@@ -668,14 +657,6 @@ a.text-white {
   h2.title {
     font-size: 1.8rem;
   }
-  /*
-  nav.sticky{
-    display: none;
-  }
-  .menu_desktop{
-    display: none;
-  }
-  */
   header::before {
     width: 60%;
   }
@@ -722,16 +703,6 @@ a.text-white {
     margin-bottom: 20px;
     padding: 0 10%;
   }
-  /*.button-about {
-    margin-bottom: -80px;
-    background: var(--primary);
-    color: var(--neon);
-    text-transform: uppercase;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-    padding: 30px 0;
-  }
-  */
 
   /******** PRESTATIONS*********/
 
@@ -866,6 +837,13 @@ a.text-white {
 }
 
 /******** MENU burger *******/
+@media (max-width: 375px) {
+  .logo {
+    font-size: 1.3rem;
+    margin-right: 3rem;
+    width: 70%;
+  }
+}
 @media (max-width: 425px) {
   .menu_desktop {
     display: flex;
