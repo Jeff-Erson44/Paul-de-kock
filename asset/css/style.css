@@ -864,6 +864,7 @@ a.text-white {
     width: 79% !important;
   }
   .title-about::before {
+    display: none;
     width: 16%;
     height: 3px;
     bottom: -12% !important;
@@ -874,9 +875,11 @@ a.text-white {
     margin-left: 30px;
   }
   .title-presta::before {
+    display: none;
     left: 63% !important;
   }
   .title-partenaires::before {
+    display: none;
     bottom: -345.5%;
     right: 21% !important;
     width: 10% !important;
@@ -889,12 +892,15 @@ a.text-white {
     margin-left: 55px;
   }
   .title-about::before {
+    display: none;
     left: 59% !important;
   }
   .title-presta::before {
+    display: none;
     left: 51% !important;
   }
   .title-partenaires::before {
+    display: none;
     bottom: -355.5%;
     right: 31% !important;
     width: 10% !important;
@@ -911,6 +917,7 @@ a.text-white {
     bottom: 90px;
   }
   .title-about::before {
+    display: none;
     left: 35% !important;
   }
   .container-about {
@@ -918,10 +925,16 @@ a.text-white {
   }
   .image-about::before {
     left: 13%;
+    top: 124%;
   }
   .title-contact:before {
+    display: none;
     bottom: 78%;
     right: 25%;
+  }
+  .title-partenaires::before{
+    right: 61%;
+    bottom: -377%;
   }
 
 }
