@@ -47,8 +47,8 @@ counters.forEach(counter => {
 		const c = +counter.innerText;
 		
 		if( c < target) {
-			counter.innerText = c +1;
-            setTimeout(updateCounter, 50)
+			counter.innerText = c + 1;
+            setTimeout(updateCounter, 100)
 		} else {
 			counter.innerText = target;
 		}
@@ -57,25 +57,12 @@ counters.forEach(counter => {
 	updateCounter();
 
 
+// Sticky navbar
+
     window.addEventListener("scroll", function(){
         var nav = document.querySelector("nav");
-        nav.classList.toggle("sticky", window.scrollY > 10);
+        nav.classList.toggle("sticky", window.scrollY > 10 );
     })
-
-    /*const cursor = document.querySelector('.cursor');
-
-    document.addEventListener('mousemove', e => {
-        cursor.setAttribute('style', 'top:' + (e.pageY - 6 ) + "px; left:"+(e.pageX - 6) + "px")
-    })*/
-
-    //menu burger
-    const hamburger = document.getElementById('hamburger');
-    const closeBurger = document.getElementById('close');
-    const navUL = document.getElementById('nav-ul');
-
-    hamburger.addEventListener('click', () => {
-        closeBurger.classList.toggleClass('navOpen');
-    });
 
 });
 

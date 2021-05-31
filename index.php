@@ -155,9 +155,9 @@ if (!empty($_POST)) {
                 <i class="fas fa-times" id="cancel"></i>
             </label>
             <ul class="nav-ul" id="nav-ul">
-                <li><a href="#quisommesnous" class="active">Qui sommes-nous</a></li>
-                <li><a href="#prestations">Nos prestations</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a  class="a-navigation" href="#quisommesnous" class="active">Qui sommes-nous</a></li>
+                <li><a  class="a-navigation" href="#prestations">Nos prestations</a></li>
+                <li><a  class="a-navigation" href="#contact">Contact</a></li>
             </ul>
         </nav>
         <section class="section"></section>
@@ -181,7 +181,7 @@ if (!empty($_POST)) {
             <h2>Interventions sur Paris et en Île-de-France</h2>
             <h1>Atelier de dépannage automobile</h1>
             <p>
-                <button type="button" class="bouton" href="#quisommesnous">En savoir plus</button>
+                <a class="bouton" href="#prestations">En savoir plus</a>
             </p>
         </div>
         <!-- ACCUEIL FIN -->
@@ -220,7 +220,7 @@ if (!empty($_POST)) {
             Nous avons pour objectif de répondre à vos besoins de remorquage avec un service de qualité et des experts qui vous garantirons un travail soigné.</p>
 
             <p>
-                <button type="button" class="button-about primary">contactez-nous</button>
+                <a class="button-about primary">contactez-nous</a>
             </p>
         </section>
         <!-- QUI SOMMES NOUS FIN -->
@@ -232,19 +232,14 @@ if (!empty($_POST)) {
                 <li class="li-bandeau">
                     <i class="fas fa-building"></i>
                     <div class="text-counter">Nous existons depuis </div>
-                    <div class="counter" data-target="21"></div>
+                    <div class="counter"data-target="21"></div>
                     <div class="text-counter"> Ans </div>
                 </li>
                 <li class="li-bandeau">
                     <i class="fas fa-hands-helping"></i>
-                    <div class="text-counter">Nous existons depuis </div>
-                    <div class="counter" data-target="21"></div>
-                    <div class="text-counter"> Ans </div>
-                </li> 
-                <li class="li-bandeau">
-                    <i class="fas fa-star"></i>
-                    <div class="text-counter">Nous sommes né en </div>
-                    <div class="counter"> 2000 </div>
+                    <div class="text-counter">Nous sommes partenaires avec plus de </div>
+                    <div class="counter"data-target="8"></div>
+                    <div class="text-counter"> entreprises </div>
                 </li>
             </ul>
         </div>
@@ -293,7 +288,7 @@ if (!empty($_POST)) {
 
         <section id="prestations_mobile">
             
-        <h2 class="title ">Nos prestations</h2>
+        <h2 class="title">Nos prestations</h2>
         
         <div class="container_prestations">
                 <figure>
@@ -329,7 +324,7 @@ if (!empty($_POST)) {
 
         <!-- NOS PARTENAIRES -->
         <section>
-            <h2 class="title">Nos partenaires</h2>
+            <h2 class="title title-partenaires">Nos partenaires</h2>
             
                 <div class="container-effet">
                     <div class="container-partenaires">
@@ -398,7 +393,7 @@ if (!empty($_POST)) {
                         </div>
 
                         <div class="user-box user-message">
-                            <textarea name="message" id="message" class="input-contact"></textarea>
+                            <textarea name="message" id="message" class="input-contact" maxlength = "1500"></textarea>
                             <label for="message">Message</label>
                         </div>
 

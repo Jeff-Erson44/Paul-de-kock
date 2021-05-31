@@ -135,7 +135,7 @@ header::before {
   z-index: -2;
   border-radius: 0px 0px 40px 0px;
 }
-nav.sticky ul li a {
+nav.sticky ul li .a-navigation {
   color: var(--white);
 }
 /*nav a.active,*/
@@ -177,7 +177,9 @@ label #cancel {
 #check {
   display: none;
 }
-
+.a-navigation:visited{
+  color: #000000;
+}
 /*********  ACCUEIL    ***********/
 
 .banniere {
@@ -259,15 +261,15 @@ button {
 
 #quisommesnous {
   background: none;
-  margin-top: 9%;
+  margin-top: 7%;
 }
 .title-about::before {
   position: absolute;
   content: '';
-  width: 12%;
+  width: 8%;
   height: 3px;
-  bottom: -6%;
-  left: 23%;
+  bottom: -15%;
+  left: 27%;
   background-color: var(--neon);
 }
 .container-about {
@@ -450,6 +452,16 @@ i.fas.fa-building {
   width: 100%;
   overflow: hidden;
 }
+.title-partenaires::before{
+  position: absolute;
+  content: "";
+  width: 6%;
+  height: 3px;
+  bottom: -319%;
+  right: 68%;
+  background-color: var(--neon);
+}
+
 
 @keyframes scrollTxt {
   0% {
@@ -503,6 +515,15 @@ input,
 textarea {
   width: 100%;
 }
+.title-contact:before{
+  content: "";
+  position: absolute;
+  width: 6%;
+  height:3px;
+  bottom: 74%;
+  right: 27%;
+  background-color: var(--neon);
+}
 /*
 #nom,
 #prenom {
@@ -539,7 +560,8 @@ textarea {
 */
 textarea#message {
   min-height: 50px;
-  max-height: 170px;
+  max-height: 132px;
+  min-width: 100%;
 }
 
 .infos p {
