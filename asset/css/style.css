@@ -214,7 +214,7 @@ label #cancel {
 }
 
 /******** BOUTONS ********/
-button {
+/*button {
   padding: 20px 60px;
   background: var(--white);
   border-radius: 100px;
@@ -223,14 +223,21 @@ button {
   text-transform: uppercase;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+*/
 .primary {
   background: var(--primary);
   color: var(--neon);
+  text-transform: uppercase;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .primary:hover {
   background: var(--neon);
   color: var(--primary);
   cursor: pointer;
+  padding: 20px 60px;
+  background: var(--white);
+  border-radius: 100px;
+  border: none;
 }
 /******** QUI SOMMES NOUS ********/
 #quisommesnous_mobile {
@@ -483,13 +490,22 @@ input,
 textarea {
   width: 100%;
 }
+/*
 #nom,
 #prenom {
-  width: 45%;
+  width: 80%;
 }
+*/
 .nomPrenom {
   display: flex;
   justify-content: space-between;
+}
+#nom,
+#prenom {
+  width: 180%;
+}
+.user-prenom {
+  margin-right: 160px;
 }
 small {
   float: right;
@@ -497,6 +513,7 @@ small {
 .title-contact {
   text-align: center;
 }
+/*
 input,
 textarea {
   padding: 10px 0;
@@ -506,6 +523,7 @@ textarea {
   border: none;
   border-bottom: 2px solid var(--primary);
 }
+*/
 textarea#message {
   min-height: 50px;
   max-height: 170px;
@@ -520,7 +538,149 @@ textarea#message {
   margin-bottom: 5rem;
   margin-left: 1.875rem;
 }
+.user-box {
+  position: relative;
+}
+.user-box input,
+.user-box textarea {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: var(--black);
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid var(--primary);
+  outline: none;
+  background: transparent;
+}
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: var(--black);
+  pointer-events: none;
+  transition: 0.5s;
+}
+.user-box input:focus ~ label,
+.user-box input:valid ~ label,
+.user-box textarea:focus ~ label,
+.user-box textarea:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: var(--black);
+  font-size: 14px;
+}
+.formulaire form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: var(--primary);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+}
+.formulaire a:hover {
+  background: var(--primary);
+  color: var(--white) !important;
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--primary), 0 0 25px var(--primary),
+    0 0 50px var(--primary), 0 0 100px var(--primary);
+}
+.formulaire a span {
+  position: absolute;
+  display: block;
+}
+.formulaire a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--primary));
+  animation: btn-anim1 1s linear infinite;
+}
 
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.formulaire a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, var(--primary));
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.formulaire a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, var(--primary));
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.formulaire a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, var(--primary));
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+.contact-button {
+  border: none;
+  background: none;
+  color: var(--neon);
+  cursor: pointer;
+  text-transform: uppercase;
+}
 /****************************/
 /*MAP*/
 /****************************/

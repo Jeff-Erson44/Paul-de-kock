@@ -382,24 +382,35 @@ if (!empty($_POST)) {
                 <div class="formulaire">
                     <form method="POST">
                         <h2 class="title title-contact">Contact</h2>
-
                         <div class="nomPrenom">
-                            <input type="text" class="input-contact" id="nom" name="nom" placeholder="Nom"> 
-                            <input type="text" class="input-contact" id="prenom" name="prenom" placeholder="Prénom">
+                            <div class="user-box user-nom">
+                                <input type="text" class="input-contact" id="nom" name="nom"> 
+                                <label>Nom</label>
+                            </div>
+                            <div class="user-box user-prenom">
+                                <input type="text" class="input-contact" id="prenom" name="prenom">
+                                <label>Prénom</label>
+                            </div>
                         </div>
 
-                        <div>
-                            <input type="email" class="input-contact" id="email" name="email" placeholder="Adresse email">
+                        <div class="user-box user-email">
+                            <input type="email" class="input-contact" id="email" name="email">
+                            <label>Email</label>
                         </div>
 
-                        <div>
-                            <label for="message"></label>
-                            <textarea name="message" id="message" class="input-contact" placeholder="message"></textarea>
+                        <div class="user-box user-message">
+                            <textarea name="message" id="message" class="input-contact"></textarea>
+                            <label for="message">Message</label>
                         </div>
 
                         <small>(1500 caractères max.)</small>
-
-                        <button type="submit" class="primary">Envoyer</button>
+                        <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <button type="submit" class="contact-button">Envoyer</button>
+                        </a>
                     </form>
                 </div>
         </section>
