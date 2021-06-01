@@ -238,8 +238,8 @@ if (!empty($_POST)) {
                 <li class="li-bandeau">
                     <i class="fas fa-building"></i>
                     <div class="text-counter">Nous existons depuis </div>
-                    <div class="counter"data-target="21"></div>
-                    <div class="text-counter"> Ans </div>
+                    <div class="counter number-counter"data-target="21"></div>
+                    <div class="text-counter year-counter"> Ans </div>
                 </li>
                 <li class="li-bandeau">
                     <i class="fas fa-hands-helping"></i>

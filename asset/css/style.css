@@ -263,7 +263,7 @@ button {
   border-radius: 100px;
   border: none;
 }
-.bouton{
+.bouton {
   color: var(--primary);
   background: var(--white);
 }
@@ -323,10 +323,10 @@ button {
 .bandeau {
   display: flex;
   background: var(--primary);
-  height: 18.4rem;
   width: 100%;
-  margin-top: 8rem;
+  padding: 50px 0;
 }
+
 .ul-bandeau {
   display: flex;
   flex-direction: row;
@@ -334,12 +334,16 @@ button {
   width: 100%;
   justify-content: space-around;
 }
-.li-bandeau p {
-  color: var(--white);
+
+.li-bandeau {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-li.li-bandeau {
-  text-align: center;
+.number-counter {
+  margin-bottom: 10px;
 }
+
 i {
   color: var(--white);
   font-size: 3rem;
@@ -352,13 +356,11 @@ i.fas.fa-building {
 }
 .counter {
   color: var(--white);
-  margin: 30px 0;
   font-size: 2rem;
 }
 .text-counter {
   color: var(--white);
   margin-bottom: 30px;
-  margin-top: 30px;
 }
 
 /******** NOS PRESTATIONS *********/
@@ -487,6 +489,7 @@ i.fas.fa-building {
 /******** CONTACT *********/
 #contact {
   background: url('../img/back-contact.webp');
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 890px;
@@ -525,7 +528,7 @@ form {
 }
 input,
 textarea {
-  width: 100%;
+  max-width: 100%;
 }
 .title-contact:before {
   content: '';
@@ -686,14 +689,14 @@ a.text-white {
     margin-top: 130px;
   }
   .button-home {
-    background: var(--white)!important;
+    background: var(--white) !important;
     color: var(--primary);
   }
   .containeur-accueil h1 {
     font-size: 20px;
     line-height: 25px;
   }
-  .containeur-accueil{
+  .containeur-accueil {
     top: calc(55% - -5.5%);
     left: 11%;
   }
@@ -705,7 +708,7 @@ a.text-white {
 
   #quisommesnous_mobile {
     display: block;
-    margin-top: 290px;
+    margin-top: 360px;
   }
   .img-about {
     width: 60%;
@@ -750,24 +753,24 @@ a.text-white {
   .presta3 {
     background: var(--black);
   }
-  .title-presta{ 
-      font-size: 1.8rem;
-      position: relative;
-      color: black;
+  .title-presta {
+    font-size: 1.8rem;
+    position: relative;
+    color: black;
   }
-  .title-presta::before{
+  .title-presta::before {
     position: absolute;
-    content: "";
+    content: '';
     width: 20%;
     height: 3px;
     left: 50%;
   }
 
-
   /******** BANNER *********/
 
   .bandeau {
     height: fit-content;
+    margin-top: 80px;
   }
   .fa,
   .fas {
@@ -779,10 +782,21 @@ a.text-white {
   }
   .text-counter {
     margin-top: 10px;
+    text-align: center;
   }
+  .number-counter {
+    margin-top: 31px;
+  }
+  .year-counter {
+    margin-top: 8px;
+  }
+
   li.li-bandeau {
-    margin-top: 5%;
-    width: 40%;
+    margin: 70px 0 20px 0;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .logo_partenaires {
     width: 80px;
@@ -817,16 +831,16 @@ a.text-white {
     margin-top: 85px;
   }
 
-  .title-contact:before{
+  .title-contact:before {
     width: 13%;
     height: 3px;
     bottom: 62%;
     right: 35%;
   }
   .user-prenom {
-    margin-right: 0; 
-}
-  
+    margin-right: 0;
+  }
+
   /******** BANDEAU *********/
   .ul-bandeau {
     padding: 0;
@@ -873,7 +887,7 @@ a.text-white {
     bottom: -12% !important;
     left: 70% !important;
   }
-  a.button-about.primary{
+  a.button-about.primary {
     padding: 20px 50px;
     margin-left: 30px;
   }
@@ -890,9 +904,11 @@ a.text-white {
 }
 
 @media screen and (min-width: 375px) and (max-width: 425px) {
-
-  a.button-about.primary{
-    margin-left: 55px;
+  a.button-about.primary {
+    margin-left: 75px;
+  }
+  #contact.primary {
+    margin-left: 75px;
   }
   .title-about::before {
     display: none;
@@ -908,9 +924,7 @@ a.text-white {
     right: 31% !important;
     width: 10% !important;
   }
-
 }
-
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   .banniere {
@@ -935,11 +949,10 @@ a.text-white {
     bottom: 78%;
     right: 25%;
   }
-  .title-partenaires::before{
+  .title-partenaires::before {
     right: 61%;
     bottom: -377%;
   }
-
 }
 /******** MENU burger *******/
 @media (max-width: 375px) {
