@@ -192,7 +192,7 @@ if (!empty($_POST)) {
             <div class="container-about">
                 <div class="image-about">
                     <figure>
-                        <img class="img-about" src="asset/img/paulfake.jpg" alt="image d'illustration pour la présentation de l'entreprise">
+                        <img class="img-about" src="asset/img/paulfake.webp" alt="image d'illustration pour la présentation de l'entreprise">
                     </figure>
                 </div>
                 <div class="texte-about">
@@ -211,7 +211,7 @@ if (!empty($_POST)) {
         <section id="quisommesnous_mobile">
             <h2 class="title title-about">Qui sommes-nous</h2>
             <figure>
-                <img class="img-about" src="asset/img/paulfake.jpg" alt="image d'illustration pour la présentation de l'entreprise">
+                <img class="img-about" src="asset/img/paulfake.webp" alt="image d'illustration pour la présentation de l'entreprise">
             </figure>
             
             <p class="texte">R PAUL DE KOCK SARL créée en 2000 .Nous sommes des dépanneurs professionnels expérimentés. Nous opérons
@@ -250,7 +250,7 @@ if (!empty($_POST)) {
         <section id="prestations">
             <div class="image-presta">
                 <figure>
-                    <img class="img-presta" src="asset/img/presta-bg.jpg" alt="Titre de la section nos prestations">
+                    <img class="img-presta" src="asset/img/presta-bg.webp" alt="Titre de la section nos prestations">
                 </figure>
                 <h2 class="title title-presta">Nos prestations</h2>
             </div>
@@ -329,28 +329,28 @@ if (!empty($_POST)) {
                 <div class="container-effet">
                     <div class="container-partenaires">
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_renault.png" >
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_renault.webp" >
                         </figure>
                         <figure>
                             <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_bmw.png">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_citroen.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_citroen.webp">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_peugeot.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_peugeot.webp">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_reservoir_auto.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_reservoir_auto.webp">
                         </figure>                       
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_renault.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_renault.webp">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_bmw.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_bmw.webp">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_citroen.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_citroen.webp">
                         </figure>
                         <figure>
                             <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_peugeot.png">
