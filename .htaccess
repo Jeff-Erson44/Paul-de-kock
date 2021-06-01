@@ -25,7 +25,7 @@ Header append Vary User-Agent env=!dont-vary
 # BEGIN Expire headers
 <IfModule mod_expires.c>
  ExpiresActive On
- ExpiresDefault "access plus 22200 seconds"
+ ExpiresDefault "access plus 7200 seconds"
  ExpiresByType image/jpg "access plus 2592000 seconds"
  ExpiresByType image/jpeg "access plus 2592000 seconds"
  ExpiresByType image/png "access plus 2592000 seconds"
@@ -37,8 +37,8 @@ Header append Vary User-Agent env=!dont-vary
  ExpiresByType image/x-icon "access plus 2592000 seconds"
  ExpiresByType text/css "access plus 2592000 seconds"
  ExpiresByType text/javascript "access plus 2592000 seconds"
- ExpiresByType text/html "access plus 27200 seconds"
- ExpiresByType application/xhtml+xml "access plus 27200 seconds"
+ ExpiresByType text/html "access plus 7200 seconds"
+ ExpiresByType application/xhtml+xml "access plus 7200 seconds"
  ExpiresByType application/javascript A259200
  ExpiresByType application/x-javascript "access plus 2592000 seconds"
  ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
