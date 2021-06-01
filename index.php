@@ -100,7 +100,7 @@ if (!empty($_POST)) {
     <meta property="og:type" content="article" />
     <meta property="og:description" content="R Paul de Kock"/>
     <meta property="og:locale" content="fr_FR" />
-    <meta property="og:title" content="Dépannage automobile - R Paul de Kock, intervention en urgence ou sur RDV" /> 
+    <meta property="og:title" content="Dépannage automobile - R Paul de Kock - Intervention en urgence ou sur RDV" /> 
     <title>R Paul de Kock</title>
     <!-- Font Awesome -->
     <!doctype html>
