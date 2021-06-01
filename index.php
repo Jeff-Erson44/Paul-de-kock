@@ -119,12 +119,6 @@ if (!empty($_POST)) {
     <!-- LIGHTBOX CDN -->
     <link rel="stylesheet" href="asset/css/lightbox.min.css">
     <!-- FAVICON optimisé pour tout les devices-->
-    <!-- MAP -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-   crossorigin=""/>
-
-   <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="57x57" href="asset/img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="asset/img/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="asset/img/favicon/apple-icon-72x72.png">
@@ -142,12 +136,6 @@ if (!empty($_POST)) {
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="asset/img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
-   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-
-   <script src='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
-   <link href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
 
 
 </head>
@@ -411,9 +399,8 @@ if (!empty($_POST)) {
         </section>
         <!-- CONTACT FIN -->
 
-        <div id="mapid"></div>
-       
 
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.2659528147583!2d2.4356062156306906!3d48.89126847929076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d21d979b269%3A0xb9938b72c7e9dcb4!2s2%20Rue%20des%20Carri%C3%A8res%2C%2093230%20Romainville!5e0!3m2!1sfr!2sfr!4v1622582194451!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
     </main>
 <!-------------->
