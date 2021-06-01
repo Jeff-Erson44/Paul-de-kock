@@ -95,6 +95,12 @@ if (!empty($_POST)) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"  content="Paul de Kock, Remorquage automobile. Intervention en urgence ou sur RDV, Paris et Ile-de-France. Remorquage tout type de véhicules, en sous-sol, brûlée, accidenté. Dépanneur professionnel, services efficace et rapide.">
     <meta name="robots" content="all"> 
+    <!-- BALISE OG PARTAGE -->
+    <meta property="og:image" content="asset/img/IMG_3352.webp"/>
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="R Paul de Kock"/>
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:title" content="Dépannage automobile - R Paul de Kock, intervention en urgence ou sur RDV" /> 
     <title>R Paul de Kock</title>
     <!-- Font Awesome -->
     <!doctype html>
