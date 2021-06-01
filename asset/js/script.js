@@ -44,7 +44,10 @@ function toggle_visibility(){
 	if(windowWidth <= widthLimit){
 		a.setAttribute("href", "#quisommesnous_mobile");
 		b.setAttribute("href", "#prestations_mobile");
-	}
+	}else{
+		a.setAttribute("href", "#quisommesnous");
+		b.setAttribute("href", "#prestations");
+    }
 }
 toggle_visibility();
 
