@@ -119,12 +119,6 @@ if (!empty($_POST)) {
     <!-- LIGHTBOX CDN -->
     <link rel="stylesheet" href="asset/css/lightbox.min.css">
     <!-- FAVICON optimisé pour tout les devices-->
-    <!-- MAP -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-   crossorigin=""/>
-
-   <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="57x57" href="asset/img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="asset/img/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="asset/img/favicon/apple-icon-72x72.png">
@@ -142,12 +136,6 @@ if (!empty($_POST)) {
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="asset/img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
-   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-
-   <script src='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
-   <link href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
 
 
 </head>
@@ -410,10 +398,6 @@ if (!empty($_POST)) {
                 </div>
         </section>
         <!-- CONTACT FIN -->
-
-        <div id="mapid"></div>
-       
-
 
     </main>
 <!-------------->
