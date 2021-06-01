@@ -698,6 +698,9 @@ a.text-white {
     left: 11%;
   }
 
+  a.primary.bouton {
+    display: none;
+  }
   /******** QUI SOMMES NOUS MOBILE *********/
 
   #quisommesnous_mobile {
