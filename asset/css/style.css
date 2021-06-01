@@ -286,6 +286,7 @@ button {
   background-color: var(--neon);
 }
 .container-about {
+  position: relative;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -311,8 +312,8 @@ button {
   content: '';
   display: block;
   position: absolute;
-  left: 22%;
-  top: 120%;
+  left: 2%;
+  top: 2%;
   height: 43.1rem;
   width: 29.5rem;
   border: 4px solid var(--primary);
@@ -324,13 +325,13 @@ button {
   display: flex;
   background: var(--primary);
   width: 100%;
-  padding: 50px 0;
+  padding: 50px 0 30px;
 }
 
 .ul-bandeau {
   display: flex;
   flex-direction: row;
-  padding: 3rem 15rem;
+  padding: 3rem 15rem 0;
   width: 100%;
   justify-content: space-around;
 }
@@ -558,7 +559,7 @@ small {
 }
 textarea#message {
   min-height: 50px;
-  max-height: 132px;
+  max-height: 70px;
   min-width: 100%;
 }
 
