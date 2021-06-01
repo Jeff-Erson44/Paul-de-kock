@@ -232,7 +232,7 @@ label #cancel {
   content: '';
   width: 20%;
   height: 3px;
-  bottom: 150px;
+  bottom: 162px;
   background-color: var(--neon);
 }
 
@@ -276,13 +276,16 @@ button {
   background: none;
   margin-top: 7%;
 }
+.title-about {
+  position: relative;
+}
 .title-about::before {
   position: absolute;
   content: '';
   width: 8%;
   height: 3px;
   bottom: -15%;
-  left: 27%;
+  left: 23%;
   background-color: var(--neon);
 }
 .container-about {
@@ -468,13 +471,16 @@ i.fas.fa-building {
   width: 100%;
   overflow: hidden;
 }
+.title-partenaires {
+  position: relative;
+}
 .title-partenaires::before {
   position: absolute;
   content: '';
   width: 6%;
   height: 3px;
-  bottom: -318%;
-  right: 68%;
+  bottom: -6%;
+  right: 72%;
   background-color: var(--neon);
 }
 
@@ -531,13 +537,16 @@ input,
 textarea {
   max-width: 100%;
 }
+.title-contact {
+  position: relative;
+}
 .title-contact:before {
   content: '';
   position: absolute;
   width: 6%;
   height: 3px;
-  bottom: 74%;
-  right: 27%;
+  bottom: 0;
+  right: 34%;
   background-color: var(--neon);
 }
 .nomPrenom {
