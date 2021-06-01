@@ -338,7 +338,7 @@ if (!empty($_POST)) {
                             <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_renault.webp" >
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_bmw.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_bmw.webp">
                         </figure>
                         <figure>
                             <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_citroen.webp">
@@ -359,10 +359,10 @@ if (!empty($_POST)) {
                             <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_citroen.webp">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_peugeot.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_peugeot.webp">
                         </figure>
                         <figure>
-                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_reservoir_auto.png">
+                            <img alt="logo carrousel des partenaires de l'entrprise" class="logo_partenaires" src="asset/img/logo_reservoir_auto.webp">
                         </figure>                       
                     </div>         
                 </div>
