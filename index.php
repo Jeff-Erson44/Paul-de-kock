@@ -149,8 +149,8 @@ if (!empty($_POST)) {
                 <i class="fas fa-times" id="cancel"></i>
             </label>
             <ul class="nav-ul" id="nav-ul">
-                <li><a  class="a-navigation" href="#quisommesnous" class="active">Qui sommes-nous</a></li>
-                <li><a  class="a-navigation" href="#prestations">Nos prestations</a></li>
+                <li><a  class="a-navigation" id="about-navigation" href="#quisommesnous" class="active">Qui sommes-nous</a></li>
+                <li><a  class="a-navigation" id="presta-navigation" href="#prestations">Nos prestations</a></li>
                 <li><a  class="a-navigation" href="#contact">Contact</a></li>
             </ul>
         </nav>

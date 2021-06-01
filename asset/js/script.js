@@ -35,6 +35,18 @@ counters.forEach(counter => {
 
 });
 
+var widthLimit = 450;
+function toggle_visibility(){
+	var a = document.getElementById("about-navigation");
+	var b = document.getElementById("presta-navigation")
+
+	var windowWidth = window.innerWidth;
+	if(windowWidth <= widthLimit){
+		a.setAttribute("href", "#quisommesnous_mobile");
+		b.setAttribute("href", "#prestations_mobile");
+	}
+}
+toggle_visibility();
 
 
 

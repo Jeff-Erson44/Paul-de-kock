@@ -557,8 +557,9 @@ textarea {
 #prenom {
   width: 180%;
 }
-.user-prenom {
-  margin-right: 160px;
+.user-prenom,
+.user-nom {
+  width: 45%;
 }
 small {
   float: right;
@@ -650,6 +651,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0 10rem;
+  margin-top: -5px;
 }
 .logoFooter {
   width: 10%;
