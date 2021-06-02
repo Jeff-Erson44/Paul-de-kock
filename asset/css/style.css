@@ -687,6 +687,10 @@ a.text-white {
     margin-right: 3rem;
     width: 70%;
   }
+  .containeur-accueil h1::before {
+    display: none;
+  }
+
 
   /******** ACCUEIL *********/
 
@@ -843,12 +847,19 @@ a.text-white {
   .title-contact:before {
     width: 13%;
     height: 3px;
-    bottom: 62%;
-    right: 35%;
+    bottom: 0%;
+    right: 29%;
   }
   .user-prenom {
     margin-right: 0;
   }
+  button.primary {
+    margin-left: 55px;
+    margin-top: 19px;
+}
+.user-prenom, .user-nom {
+  width:100%;
+}
 
   /******** BANDEAU *********/
   .ul-bandeau {

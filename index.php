@@ -93,14 +93,15 @@ if (!empty($_POST)) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"  content="Paul de Kock, Remorquage automobile. Intervention en urgence ou sur RDV, Paris et Ile-de-France. Remorquage tout type de véhicules, en sous-sol, brûlée, accidenté. Dépanneur professionnel, services efficace et rapide.">
+    <meta name="description"  content="Paul de Kock, Remorquage automobile. Intervention en urgence ou sur RDV, Paris et Ile-de-France. Remorquage tout type de véhicule. Dépanneur professionnel, services efficace et rapide.">,
     <meta name="robots" content="all"> 
     <!-- BALISE OG PARTAGE -->
-    <meta property="og:image" content="asset/img/IMG_3352.webp"/>
-    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://pauldekock.fr/asset/img/image_share.webp"/>
+    <meta property="og:type" content="website" />
     <meta property="og:description" content="R Paul de Kock"/>
     <meta property="og:locale" content="fr_FR" />
-    <meta property="og:title" content="Dépannage automobile - R Paul de Kock - Intervention en urgence ou sur RDV" /> 
+    <meta property="og:title" content="Dépannage automobile - R Paul de Kock - Intervention en urgence ou sur RDV"/>
+    <meta property="og:url" content="https://www.pauldekock.fr" />
     <title>R Paul de Kock</title>
     <!-- Font Awesome -->
     <!doctype html>
@@ -114,8 +115,6 @@ if (!empty($_POST)) {
     <link rel="stylesheet" href="asset/css/all.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="asset/css/style.css">
-    <!-- LOCOMOTIVE SCROLL -->
-    <link rel="stylesheet" href="../Paul-de-kock/asset/css/locomotive-scroll.css">
     <!-- LIGHTBOX CDN -->
     <link rel="stylesheet" href="asset/css/lightbox.min.css">
     <!-- FAVICON optimisé pour tout les devices-->
