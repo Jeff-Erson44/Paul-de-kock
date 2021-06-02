@@ -963,6 +963,12 @@ a.text-white {
     bottom: -377%;
   }
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+  .banniere {
+    height: 500px;
+  }
+}
 /******** MENU burger *******/
 @media (max-width: 375px) {
   .logo {
