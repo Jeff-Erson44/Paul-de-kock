@@ -1,6 +1,4 @@
 
-
-console.group('Profile');
 // Compteur  
 
 function init(){}
